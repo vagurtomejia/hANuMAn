@@ -49,6 +49,8 @@ ie: `rails g controller greeter hello` generates:
 - two tag patterns to learn: 
 - `<% ...ruby code... %>` evaluate Ruby code
 - `<%= ...ruby code... %>` output evaluated Ruby code
+## CSS
+Add your css into the stylesheets folder in app/assets/stylesheets
 
 
 Rake
