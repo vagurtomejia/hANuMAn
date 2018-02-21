@@ -122,12 +122,92 @@ Si necesito consideración, me cuido yo primero
 
 Ojo! Es importante conectarse en los momentos de felicidad! No solo en problemas!
 
+## Esfuerzo
+El esfuerzo en sí a nosotros como padres nos da seguridad de que el niño avanza y no se queda parado y por ello nos tranquiliza.
+A cualquier persona que le dicen "te tienes que esforzar" no funciona.
+El esfuerzo es un valor que debe de ir con algo que tiene sentido.
+El esfuerzo aparece solo cuando el nino o la niña quiere conseguir un objetivo para cuidar de sus necesidades. Asi somos todos.
+- Me cuesta aprender matematicas
+- Te cuesta porque el profesor te aburre? Porque no entiendes?
+[entender qué necesitan y apoyarles en su necesidad]
+- No entiendo
+=> acción: clases particulares para que entienda mejor
+
+Cuando ponemos el foco en el esfuerzo lo que conseguimos es generar rechazo y quitarles las ganas de esfirzarse.
+
+## Motivación (min 15-30 con e-mail de Susanne)
+
+
+Te doy un premio si haces lo que yo considero que está bien.
+Te doy un castigo si no haces lo que yo quiero.
+En esto el niño no es tenido en cuenta, solo su comportamiento.
+
+En su lugar podemos hablar con él después de una sesión/horario de estudio:
+- qué trabajo has hecho?
+- has hecho este trabajo de matemáticas?
+Distorción cognitiva: lupa del error, lupa de la falta
+
+Si el niño llega con un 4/10.
+Estas 4 están bien. Te has sabido las respuestas. Me imagino (20 minutos sesion 5)
+
+## Colaboración en casa
+La solemos plantear desde la obligación.
+No plantearla desde la obligación significa plantearla desd lo que significa para nosotros.
+Ejemplo:
+no me interesa que sea una colaboración desde la obligación, me interesa que lo hagas porque tiene sentido para ti
+Cuando colaboras yo soy feliz porque siento que importamos todos, que somos grupo.
+
+Cuando hay un clima de cariño y comprensión en casa, que hay un diálogo ya establecido, la colaboración viene naturalmente! Es importante cuidar de la relación, abonarla antes de pedir cosas.
+Ojo! No se trata de un ajuste de cuentas. Pedirlo sin comparar!
+
+## No
+Cuando nos dicen que no quieren hacer algo. Directamente tenemos que ponernos en modo "escucha".
+Ejemplo:
+Me dices que no. Imagino que estás ocupada? Que quieres terminar de jugar? Qué te parece si juegas 5 minutos más y luego me ayudas?
+
+Reconocimiento sentido de lo que hacen. Todos queremos que nos reconozcan.
+
+Siempre un no lleva un si.
+Si mi hijo me dice "No quiero ducharme". La otra cara es "A qué le digo sí", o sea cuál es la necesidad detrás? Afirmarse? Libertad de decidir?
+
+En el otro sentido también es importante cuando les decimos que no, poner el acento en a qué le decimos que sí
+Tip: Cuando dicen que no, transformarlo y ver a qué necesidad dice que sí. Así abrimos el espacio
+
+## Frustración (min 40)
+...
+
+## Rabia (min 48-54)
+1 identificar el enfado corporal y energéticamente. La rabia siempre es corporal. Es una tensi´øn que nos aprieta. El cuerpo nos avisa
+2 Pensaren cómo vooya a actuar desde el enfadoy en sus consecuencias
+3 Qué es lo que ha pasado? Cuáles son los hechos neutros?
+5 reproche Ella tendría que volver a casa sin protestar porque ya se lo ha pasado bien
+6 necesito cercanía con ella.
+7 primero no enfadarme yo. Me quedo conectada a mi necesidad de tranquilidad.
+Me digo a mi misma que es una niña pequeña, que le gusta jugar y que se podría quedar en el parque hasta muy tarde. Me digo que es un proceso de vida
+8 sentimientos: mucha frustración
+necesidad: comprensión, paciencia, sentirse querida, valorada aunque monte un 'circo'
+9
+10
+...
+
+
+
+
+## Sufrimiento de nuestros hijos
+Como padres a veces queremos ser bomberos y apagar el sufrimiento de nuestros hijos.
+sin sufriimiento no evolucionamos. Por mucho que tratemos de evitar el sufrimiento de nuestros hijos, este lo decide la vida.
+A veces queriendo evitar el sufrimiento de nuestros hijos porque aparte de su sufrimiento tienen que cargar.
+Cuando queremos hacer cosas para que nuestros hijos no sufran les estamos transmitiendo desconfianza porque nuestros hijos son fuertes.
+
 
 ## Deberes
 
 *sesión 4:*
 + Límites que tenemos en nuestra vida con hijos y entorno?
 + Qué relación tengo con la frustracion de mi hijo? Buscar en mi a ver si es sano.
+
+*sesión 5:*
++ Cuando nos dicen que no tratar de poner el foco en a qué nos dicen que sí?
 
 
 
