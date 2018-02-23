@@ -210,6 +210,10 @@ Cuando queremos hacer cosas para que nuestros hijos no sufran les estamos transm
 + Cuando nos dicen que no tratar de poner el foco en a qué nos dicen que sí?
 
 
+## Herramientas
+[Tarjetas CNV](http://simple.cat/shop/)
+
+
 
 
 
