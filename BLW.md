@@ -130,8 +130,208 @@ Si cuando un niño decide que ha comido suficiente, en lugar de respetar su deci
 
 Si esto sucede de forma continuada, esta información neuronal deja de ser efectiva y por lo tanto, es probable que el niño acabe comiendo de forma habitual más de lo que necesita, algo que evidentemente no es aconsejable y que suele desencadenar en sobrepeso infantil, uno de los mayores problemas en los niños de nuestro país.
 
-6 Dejarlo solo mientras come
-Simple cuestión de seguridad
+6. Dejarlo solo mientras come
+Simple cuestión de seguridad.
+
+
+7. La sobreestimulación
+Muchas veces sucede que les dejamos tal variedad y cantidad de alimentos a su alcance que de forma sistemática, los bebés cogen prácticamente todo y lo tiran al suelo sin miramientos… todo menos uno de ellos con el que empiezan a interactuar.
+
+Esto es un mensaje fácil de interpretar: nos están diciendo que tanta comida les desconcentra, que necesitan espacio para centrar mejor su atención. Por lo tanto, en cuanto a esto se refiere conviene ofrecer pocos y variados alimentos, por ejemplo 3 tipos de alimentos, 1 poco de cada uno (idealmente de distintos grupos nutricionales, para dejar paso a la autorregulación).
+
+# Recomendaciones]
+## No comer en compañía de personas que estén en contra del método
+Algo que suele resultar incómodo y desastroso para la familia en los primeros meses es comer en compañía de alguien que no esté a favor del método, puesto que ello conllevará discusiones y los cuidadores probablemente se verán presionados, obligados a dar explicaciones y cuestionados en su decisión.
+
+Si además resulta que lo único que motiva a esa persona a estar en contra del BLW es el miedo al atragantamiento, es altamente NO recomendable que esté presente en esas primeras ocasiones ya que su desconocimiento ante el tema puede hacer que se sobrealarme ante una simple arcada o tos, asustando así al pequeño sin motivo. Eso es algo que bajo ningún concepto es aconsejable, puesto que el niño está comenzando a explorar con la comida y lo que menos conviene es sembrar su desconfianza en ella.
+
+## Cocinando en familia
+Siempre con los medios de seguridad por delante y conforme van creciendo, los niños pueden ayudarnos en pequeñas preparaciones como lavar verduras, preparar ensaladas, batir huevos, hacer mezclas o amasar entre muchas otras actividades. Así pues, integrar a los pequeños en los procesos de preparación de la comida, desde la compra hasta el emplatado no solo refuerza su autoestima y aprendizaje si no que además fomenta una mayor predisposición y mejor relación en cuanto a la comida.
+
+Evidentemente no podemos pedir a un bebé de 6 meses que nos ayude pero sí podemos hacerle partícipe de la actividad teniéndolo cerca a la hora de cocinar, por ejemplo en su trona, para explicarle lo que hacemos y que a su vez pueda vernos. Los niños evolucionan a pasos agigantados y en cuestión de meses el bebé adquiere capacidades de motricidad gruesa y fina que le permitirán una mayor interacción, probablemente entonces también sienta mayor interés en intervenir en el proceso.
+
+Muchas familias optan por comprar o construir lo que se conoce como “torre de aprendizaje”, que no es más que una estructura diseñada para que el pequeño pueda alcanzar la encimera y poder trabajar en ella cómodamente pero con total seguridad. Puedes ver un ejemplo de ello aquí:
+[Torre de aprendizage](http://www.maminatura.com/blog/es/diy-fabricando-una-torre-de-aprendizaje/)
+
+## La limpieza
+En cuanto al niño, existen varias opciones… Hay quien se decanta por el típico babero con mangas que proporciona una protección bastante completa, aunque no siempre perfecta claro está. Otras familias prefieren declarar algunas piezas de ropa ya inservibles por anteriores manchas como el uniforme oficial para la hora de comer, por así decirlo. Finalmente, la última opción es solo válida en climas tropicales y estaciones de calor, ya que consiste simplemente en dejar al pequeño solo con el pañal, estará muy a gusto y en la piel… las manchas de comida se quitan fácilmente.
+
+En cuanto al entorno hay quién decide poner debajo de la trona un papel o mantel plástico por dos motivos: El primero, para poder volver a ofrecer al pequeño lo que se le haya caído y así desperdiciar menos comida. El segundo, para recoger de forma más fácil todo lo que finalmente ha caído.
+
+# Ventajas
+Más allá de estos inconvenientes se encuentran multitud de beneficios de los que ya hemos hablado durante el curso, como el natural favorecimiento de adquisición habilidades como la masticación, la motricidad fina y la coordinación motora, pero hagamos un pequeño resumen:
+
+Practicando BLW los niños despliegan todo su potencial, no solo aprenden a comer con seguridad si no que además disfrutan del proceso, lo cuál a su vez favorece la confianza en sí mismos y una sana relación con la comida, que contribuye a gozar de una buena salud a largo plazo.
+
+Otras ventajas del método desembocan en mejoras a nivel familiar y social ya que al integrar al bebé desde el principio en las comidas familiares en lugar de aislarlo en horarios o tipos de comida, se consigue que la hora de comer se convierta en un momento de placer para todos y no en una batalla campal llena de estratagemas y juegos con la finalidad de conseguir que el niño coma, quiera o no.
+
+Finalmente representa otra gran ventaja en cuanto al tiempo y dinero invertido el hecho de no tener que preparar comidas exclusivas para el bebé y poder comer todos prácticamente lo mismo mediante simples adaptaciones.
+
+De igual manera resultan mucho más cómodas las comidas fuera de casa sin necesidad de llevar comida preparada, es probablemente por todos estos motivos, entre otros, que cada vez más familias se interesan por este tipo de alimentación.
+
+# Aspectos prácticos
++ trona de plástico fácil de limpiar
++ babero con mangas
++
+
+## ¿Y si realmente no come nada?
+Primero deberíamos analizar si es de verdad nada de nada o es que está comiendo menos de lo que como adultos pensamos (o nos han dicho) que debe comer y sea como sea, mientras las tomas de leche (materna o artificial) sean las habituales no debemos preocuparnos en demasía.
+
+
+
+En cuanto al peso, es más destacable fijarnos en que no lo pierda que en si pesa o gana más o menos que otro niño de su misma edad.
+
+En cualquier caso, la prueba más segura es su estado físico y anímico. Si es un niño activo y feliz, probablemente será un niño saludable y las revisiones periódicas por el pediatra así lo irán confirmando. Siendo así, está comiendo lo que necesita y no hay razón para preocuparse.
+
+## ¿Y si come demasiado?
+Bien es cierto que este caso suele preocupar bastante menos aunque puede darse el caso de que pensemos que está comiendo en exceso. La respuesta de nuevo es confiar en su naturaleza, puesto que es probable que si el niño come considerablemente más que los otros de su edad, es por que su organismo así lo necesita, por lo que conviene dejar que coma según su instinto.
+
+
+
+Puede pasar, de hecho, que a veces coma realmente más de lo que necesita y en lugar de sentirse saciado se sienta pesado. Si eso ocurre, con el tiempo irá aprendiendo a regular la ingesta para sentirse ágil aún después de comer, puesto que la actividad es su principal motor de desarrollo.
+
+
+
+De igual manera que en caso anterior, la prueba más segura de que todo va bien es su estado físico y anímico. Si es un niño activo y feliz, probablemente será un niño saludable y las revisiones periódicas por el pediatra así lo irán confirmando. Siendo así, está comiendo lo que necesita y no hay razón para preocuparse.
+
+# Seguridad
+## Normas básicas de actuación
+
+Antes de profundizar en este tema, conviene tener presentes las normas básicas de seguridad de las que ya hemos hablado anteriormente, por lo que vamos a recordarlas a modo de resumen inicial:
+
+El bebé debe cumplir los siguientes requisitos para comenzar de forma segura con la alimentación complementaria: Haber cumplido 6 meses, mantenerse sentado y haber perdido el reflejo de extrusión.
+Evitar sentarle a comer si tiene hambre o sueño
+No meter ni sacar comida de la boca del bebé
+Nunca dejarle solo mientras come
+Propiciar un ambiente tranquilo y evitar distracciones como la televisión, tablets, etc.
+
+
+## Evaluación de riesgos
+Recordemos que los niños están aprendiendo a comer y por lo tanto, sobretodo al principio, no solo es normal que tosan, tengan arcadas y pequeños atragantamientos sino que además es necesario para su evolución y aprendizaje.
+
+es importante diferenciar entre arcada, obstrucción parcial y atragantamiento, puesto que en función de esto la actuación necesaria será una u otra.
+
+
+### Arcada
+Debemos tener en cuenta que los niños pequeños tienen el reflejo de arcada en la parte anterior de la cavidad bucal (más o menos por el medio), es decir mucho más avanzado en la lengua que los adultos y por lo tanto son más propensos a las mismas.
+
+Es realmente un mecanismo de defensa de su organismo, que pretende evitar que algo llegue a un punto en la boca donde al bebé le sea difícil de gestionar, es por eso que conforme a su evolución y con el tiempo este reflejo va retrocediendo en la lengua hasta llegar a estar muy cerca de la garganta.
+
+Por lo tanto, que un bebé tenga arcadas no significa que esté a punto de atragantarse ni que esté en peligro, probablemente sólo tenga un trozo de comida en medio de la boca que no quiere o puede tragar y su cuerpo esté ayudándole a expulsarlo, nada más.
+
+Así pues, la actuación correcta frente a las arcadas es mantener la calma y confiar en el instinto de su cuerpo. No debemos hacer nada.
+
+### Obstrucción parcial (tos)
+Esto ocurre cuando una persona tiene las vías respiratorias parcialmente obstruidas, simplemente hay algo que le impide respirar con normalidad pero por poco que sea, el oxígeno sigue llegando a sus pulmones.
+
+La reacción del organismo frente a esta situación es la tos, gracias a la cual habitualmente consigue solventar el incidente. Que el niño tosa, pues, no es algo malo sino otro mecanismo de defensa de su cuerpo, que además nos permite saber que todo va bien, que está tratando de gestionar el atragantamiento y que su cuerpo sigue recibiendo aire, algo indispensable para no temer por su seguridad.
+
+No son necesarias ni están indicadas las palmaditas en la espalda y mucho menos es aconsejable tratar de extraer la comida u objeto que ha originado el incidente con nuestras manos, puesto que en ese intento de ayudar se puede transformar sin querer lo que era un atragantamiento sin peligro en un ahogamiento realmente peligroso.
+
+Por lo tanto, la actuación frente a la obstrucción sigue siendo la de mantener la calma y confiar en el instinto de su cuerpo.
+
+### Atragantamiento
+El atragantamiento se produce cuando un trozo de comida u objeto obstruye de manera total las vías respiratorias, lo cual implica que el oxígeno no está llegando a los pulmones, el niño no tiene posibilidad de toser ni de articular sonidos y comienza a adquirir un tono azulado.
+
+La actuación debe ser *inmediata* para estos casos puesto que el reloj corre en nuestra contra. Es importante llamar o mejor hacer *que alguien llame al 112* mientras comenzamos con las maniobras de primeros auxilios, para que en el caso de no resultar exitosas, la ayuda sanitaria ya se encuentre en camino.
+
+## Prevención de riesgos con alimentos
+Con el fin de evitar este tipo de circunstancias deberemos evitar, por lo tanto, que el niño tenga acceso a cualquier pequeño objeto que pueda poner en peligro su seguridad y evidentemente esto incluye ciertos tipos de comida que por su tamaño, forma o dureza está totalmente desaconsejada para los pequeños.
+
+
+Son ejemplo de ello todos aquellos *alimentos pequeños y de forma redondeada*, como pueden ser las uvas, los tomates cherry y las olivas entre otros. Esto no implica que no puedan comerlos, simplemente se trata de cortarlos en cuartos para ofrecerlos de forma segura.
+
+
+Teniendo en cuenta que al principio muchos niños tienen pocos dientes (cuando tienen), conviene también *adaptar todos aquellos alimentos que para nuestras manos de adultos sean difíciles de chafar*. Estos son alimentos crudos como la *manzana o la zanahoria*, que siempre pueden cocinarse con el fin de obtener una textura más adecuada y segura para los bebés.
+
+Otro caso altamente relacionado con este tipo de accidentes infantiles se da con la mayoría de *frutos secos*, cuya forma y dureza los hacen excesivamente peligrosos para los pequeños y por lo tanto sólo deberíamos ofrecerlos en forma muy troceada o triturada.
+
+
+Por último y tal vez algo más desconocidas en cuanto al peligro que suponen son las *salchichas*, sobretodo las tipo frankfurt cuyo corte habitual puede hacer efecto ventosa en las pequeñas vías respiratorias de los niños con fatales consecuencias. Por ello, en el supuesto de ofrecerlas, se recomienda hacerlo partiéndolas por la mitad a largo para que el pequeño vaya dando mordiscos o en su defecto cortar esas dos mitades en trozos de manera habitual, obteniendo así semicírculos en lugar de circunferencias completas.
+
+
+## Otros consejos de seguridad
+
+Habitualmente las tronas cuentan con sistemas de agarre para la seguridad de los pequeños, aunque paradójicamente llegado el caso de darse un ahogamiento frente al que debamos actuar podrían suponer un obstáculo y una pérdida de tiempo considerablemente valioso dada la situación. Es por esto que no está de más evaluar el tipo de agarre y su estricta necesidad teniendo en cuenta que en todo momento vamos a estar junto al bebé y así decidir si es realmente necesario su completo abroche, si es viable ajustarlo a medias solamente o si podemos permitirnos sentar al bebé a comer sin las correas de sujeción.
+
+Otra pequeña medida de seguridad es cerciorarnos de que no quedan restos de comida en la boca una vez damos por finalizada la hora de comer, puesto que llegado el caso de quedarse algún trozo entre sus mofletes sin darnos cuenta, por ejemplo, al tumbarse o realizar cualquier otra actividad de la vida diaria éste podría pasar a la garganta provocando un posible atragantamiento.
+
+
+Por último, valoremos nuestras propias reacciones frente a las distintas escenas y evitemos la exageración del peligro, es normal que nos incomode e incluso nos sobresalte cuando un niño tose más de lo habitual pero es importante tratar de alejar nuestros propios miedos frente a un posible accidente para así mantener la calma, puesto que de nuestra propia desconfianza puede nacer la del pequeño.
+
+
+No queremos que asocien ese momento con malos ratos y recelo sino que se vean autosuficientes y capaces de gestionar las circunstancias. Por ello, resulta una buena técnica de autocontrol contar hasta 5 o hasta 10 cuando un pequeño tenga dificultades de gestión (como arcadas o tos) para darle la oportunidad de solventarlo por si solo en lugar de intervenir. Probablemente no pasemos de los primeros números y nos sorprenda lo rápido que lo soluciona.
+
+## Alimentación del bebé
+
+### Qué no darles
+Una de las ventajas del método es que el bebé come lo mismo que la familia pero ¿realmente pueden comer de todo? La verdad es que prácticamente sí, pero existe una pequeña lista de alimentos que conviene evitar ofrecerles antes del año. A continuación el detalle de estos alimentos y del motivo por el que conviene
+retrasarlos.
+
+
+#### Sal
+Abusar de ella es malo a todas las edades por su relación con la hipertensión y los problemas renales entre otros. Los riñones de los bebés están acabándose de formar y son inmaduros, razón de más para evitarla en su dieta.
+
+#### Azúcar
+Nuestro organismo necesita glucosa para funcionar, pero esto no es sinónimo de que necesite azúcar o cualquiera de sus muchos substitutos, pues podemos obtenerla de forma natural en alimentos como la fruta, verduras, cereales, etc. Por lo tanto, es un alimento innecesario que además está directamente relacionado con la aparición de caries y problemas de diabetes.
+
+#### Miel
+Su ingesta puede producir botulismo, una enfermedad potencialmente mortal para los pequeños causada por una bacteria llamada Clostridium botulinum. Esta bacteria prolifera dentro del tubo digestivo del bebé.
+
+#### Leche de origen animal (excepto la fórmula para lactantes)
+La leche y sus derivados suelen estar desaconsejados durante el primer año por su exceso en sodio y proteínas. Puede producir microsangrado intestinal y entorpecer la absorción de hierro, pudiendo derivar en anemia.
+
+#### Frutos secos enteros
+Tal como hablamos en el tema “prevención de riesgos”, estos alimentos deben darse troceados o triturados para evitar una posible asfixia.
+
+#### Desnatados y bajos en grasa
+El organismo de los pequeños está en continuo crecimiento, por esto la grasa es muy importante para su desarrollo, no debemos evitarla.
+
+#### Crustáceos, pescados azules grandes y cabezas de marisco
+Estos alimentos contienen cadmio y mercurio, metales contaminantes y tóxicos para nuestro organismo y con más razón para el pequeño cuerpo de los bebés. El salmón está excluido de este grupo por su bajo contenido en mercurio, sin embargo conviene comprarlo salvaje y no de piscifactoría para evitar otro tipos de contaminantes.
+
+#### Carne y huevos poco cocinados
+Consumir estos alimentos crudos o poco cocinados puede llevar a toxiinfecciones que los adultos podemos en muchas ocasiones combatir gracias al ácido de nuestro estómago. Sin embargo, los niños no cuentan con un ácido tan fuerte y lo tendrán más complicado para luchar contra esas bacterias.
+
+#### Verduras de hoja verde
+Alimentos como las acelgas, las espinacas o la lechuga se caracterizan por su alta concentración en nitratos, la mayoría de veces inofensivos para los adultos pero que pueden afectar especialmente a los bebés, derivando en lo que se conoce como “síndrome del bebé azul”, que se caracteriza por la coloración azulada de la piel y las mucosas.
+
+#### Algas
+Su alto contenido en yodo es una de sus virtudes y beneficios en la dieta de los adultos, sin embargo no se recomienda para los bebés ya que un exceso del mismo puede derivar en problemas de tiroides entre otros.
+
+#### Bebidas de arroz y soja
+En el caso de la soja, existe diversidad de opiniones y estudios, mientras unos indican que está desaconsejada hasta mínimo los 5 años por los fitoestrógenos que contiene (algo que puede intervenir en el desarrollo, el sistema inmune y las tiroides, entre otros), otros indican que no está demostrada su relación con dichos efectos adversos (http://www.consumer.es/web/es/alimentacion/aprender_a_comer_bien/alimentos_a_debate/2015/01/23/221367.php). Sea como sea, en caso de ofrecer este tipo de alimentos, lo más sensato parece hacerlo de forma moderada, sin excesos y en una dieta equilibrada, en definitiva, igual que con el resto de alimentos.
+
+En cuanto al arroz, recientes estudios han determinado que puede contener un exceso de arsénico, elemento químico tóxico para nuestro organismo cuyo origen se encuentra en la misma tierra donde crece. Del mismo modo conviene lavar el arroz antes de cocinarlo y no ofrecerlo más de 3 veces a la semana.
+
+#### Alimentos superfluos
+Su propio nombre lo indica, son innecesarios. Suelen contener grasas de mala calidad, edulcorantes, aditivos y otros ingredientes poco saludables por lo que conviene evitarlos, no solo durante esta primera etapa sino durante toda la infancia.
+
+### Qué sí darles
+
+En el año 2000, un estudio publicado en la revista Journal of Pediatric Gastroenterology and Nutrition, corroboró la intrascendencia del orden de introducción de las pautas de los pediatras al comparar las recomendaciones de más de 20 países del mundo en los que ninguno de ellos coincidió y cuyos bebés crecían igualmente sanos.
+
+Lo más lógico parece no complicarnos y comenzar por lo que coma la familia o simplemente con lo que los cuidadores se sientan más cómodos para el inicio. Esto habitualmente suele ser fruta, verdura o algún tipo de cereal, no porque esté mal comenzar con carne, pescado o legumbres sino porque suele ser lo más fácil de gestionar, o lo que menos impone, para que el pequeño tenga sus primeros contactos con la comida sólida.
+
+No obstante, sí es conveniente priorizar la introducción de alimentos ricos en hierro, puesto que las reservas naturales que los pequeños tienen desde el nacimiento comienzan a agotarse sobre los 6 meses de edad. No hay que confundir este dato y pensar que por ello los bebés que comiencen y no coman suficientes alimentos de este tipo vayan a sufrir algún tipo de anemia, puesto que se trata de una fecha aproximada y además dicha reserva todavía durará semanas e incluso meses antes de agotarse de forma completa. Por lo tanto no es algo con lo que debemos obsesionarnos pero sí darle la importancia que merece, para ello, puede serte útil la siguiente infografía.
+
+#### Introducción progresiva
+Tener en cuenta que cada nuevo alimento que ofrecemos al pequeño es una primera toma de contacto y por ello su introducción debe hacerse de forma progresiva con el fin de detectar posibles casos de alergia. Por lo tanto es recomendable:
+
++ Dar un solo alimento nuevo al día, para en caso de reacción alérgica saber cuál ha sido el origen.
++ Si sospechamos que puede tener alergia a un alimento, consultar con el pediatra.
++ No dar por introducido un alimento hasta haberlo ofrecido 3 días distintos (consecutivos o no), puesto que un alimento puede no dar alergia en el primer contacto pero sí en los siguientes. No se debe introducir un nuevo alimento hasta que el anterior ya ha sido introducido.
++ No ofrecer alimentos nuevos después de las 6 de la tarde, ya que una reacción alérgica no tiene porqué darse de manera inmediata, puede darse pasadas varias horas y de darse el caso podría suceder por la noche, momento en que puede pasar desapercibido para los cuidadores.
+
+
+Seguir esta pauta de introducción conlleva que durante las primeras semanas los alimentos presentados sean muy simples, naturales (no procesados) y cocinados de manera muy básica. Conforme pasa el tiempo y son más los alimentos ya introducidos podemos combinarlos para ir ofreciendo comidas más elaboradas y condimentadas.
+
+
+
+
+
+
+
 
 
 
