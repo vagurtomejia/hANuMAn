@@ -68,7 +68,6 @@ Ojo! Que propongamos una alternativa no significa que no vayan a protestar.
 
 Nuestros hijos y alumnos no necesitan límites. El límite es mio. Ellos lo que necesitan es sentirse comprendidos en la frustración, en que lloren, en que pataleen. Eso es sano!
 
-
 ## Frustración
 Cuando ponemos un límite a nuestros hijos queremos que no protesten porque no toleramos su frustración. Les exigimos sin darnos cuenta que comprendan, acepten y aplaudan nuestro límite. Cuando algo que limita por definición corta la libertad y frustra al ser humano. La frustración es natural, sana.
 Sinembargo cuando ponemos un límite queremos que se acepte sin problemas.
@@ -78,7 +77,6 @@ Es importante estar en paz con esa frustración. Esto es muy importante porque e
 Los hijos necesitan que les pongamos límites y les contengamos.
 
 Preguntas: Accion para cubrir necesidades?
-
 
 ## Consecuencias / castigos
 "Consecuencia" es una palabra moderna y más fina para llamar al castigo.
@@ -99,7 +97,6 @@ La pregunta que me acla sobre si es un castigo o un limite está dentro de mi:
 Ejemplo:
 - castigo: "si hablas te vas fuera de clase, o llamo a tus padres"
 - límite: "entiendo que estás nervioso, que esta clase es muy difícil de seguir para ti, que tienes muchas ganas de hablar. Al mismo tiempo para mi es importante que el resto de la clase pueda aprender. Qué te parece si te pones en un rincón y estás tranquilo?" Y si no quiere salir le puedo decir "No quieres salir. Al mismo tiempo aquí te cuesta estar tranquilo y callado, así que te pido salir de clase porque para mi es importante cuidar a los demás. Y luego si quieres me esperas, hablamos y vemos qué podemos hacer para que la clase sea más facil de seguir para ti."
-
 
 ## Falsos sentimientos
 Por ejemplo maltratado, enjuiciado, presionado, ....
@@ -136,8 +133,6 @@ El esfuerzo aparece solo cuando el nino o la niña quiere conseguir un objetivo 
 Cuando ponemos el foco en el esfuerzo lo que conseguimos es generar rechazo y quitarles las ganas de esfirzarse.
 
 ## Motivación (min 15-30 con e-mail de Susanne)
-
-
 Te doy un premio si haces lo que yo considero que está bien.
 Te doy un castigo si no haces lo que yo quiero.
 En esto el niño no es tenido en cuenta, solo su comportamiento.
@@ -150,7 +145,17 @@ Distorción cognitiva: lupa del error, lupa de la falta
 Si el niño llega con un 4/10.
 Estas 4 están bien. Te has sabido las respuestas. Me imagino (20 minutos sesion 5)
 
-## Colaboración en casa
+## Te mereces/no te mereces
+El "te mereces" es una valoración/aprobación/amor condicional.
+Te mereces/No te lo mereces -> Te valoro porque haces esto, porque has actuado bien según mis criterios.
+Todos estamos conscientes del precio que hemos pagado en la vida por esta valoración condicional. Luego, de adultos, seguimos buscando la aprobación afuera, porque no la tenemos dentro.
+Nuestros hijos *siempre* merecen amor y siempre merecen cuidado. Nunca se merecen algo duro.
+
+En su lugar, si hacen algo que no nos gusta, tenemos dos alternativas:
+1. poner nuestro límite y decir "esto no me gusta, porque para mi es importante el respeto, el cuidado de las cosas, .... y desde ahí no vamos a hacer esto"
+2. la expresión honesta: "cuando haces esto quiero decirte que este hecho a mi me estimula tristeza, me hace sentir triste porque me importa mucho que nos hablemos con respeto"
+
+## Colaboración en casa 32:45
 La solemos plantear desde la obligación.
 No plantearla desde la obligación significa plantearla desd lo que significa para nosotros.
 Ejemplo:
