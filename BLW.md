@@ -326,6 +326,164 @@ Tener en cuenta que cada nuevo alimento que ofrecemos al pequeño es una primera
 
 Seguir esta pauta de introducción conlleva que durante las primeras semanas los alimentos presentados sean muy simples, naturales (no procesados) y cocinados de manera muy básica. Conforme pasa el tiempo y son más los alimentos ya introducidos podemos combinarlos para ir ofreciendo comidas más elaboradas y condimentadas.
 
+### Alérgenos
+Hasta no hace mucho se pensaba que la introducción temprana de este tipo de alimentos estaba relacionada con la aparición de alergias y por lo tanto lo recomendado era no ofrecerlos hasta ciertas edades con el fin de evitarlas. Pero varios estudios, entre ellos el publicado hace unos años en la revista “Evidencias en Pediatría”, aseguran que no existe razón científica para retrasar la introducción de los alimentos más alergénicos puesto que ello no previene la reacción y por lo tanto organismos oficiales como la SEICAP (Sociedad Española de Inmunología Clínica, Alergología y Asma Pediátrica) avalan el hecho de que introducirlos a partir de los 6 meses igual que hacerlo a los 2 años, pero ¿No será más grave una reacción alérgica si el niño es tan pequeño?
+
+
+
+Para responder a esta pregunta debemos tener en cuenta el principio fundamental del Baby Led Weaning, la autorregulación. Primero, porque al contrario que con las papillas, practicando BLW la evolución es progresiva y los primeros contactos del bebé con el alimento suelen ser mínimos, con lo cuál mínima también será su reacción al mismo, en caso de haberla. Además, muchas veces las personas alérgicas comienzan a notar que un alimento no les conviene por un ligero picor en la boca, si esto pasa probablemente el bebé rechace ese alimento y si como adultos lo respetamos, no presionamos ni obligamos estamos minimizando el riesgo de que ingiera grandes cantidades de algo ante lo que su organismo no reacciona bien.
+
+Dicho esto, sí es relevante el hecho de que un bebé tenga o no antecedentes familiares con alergias, puesto que su predisposición a padecerla es estadísticamente mayor al resto de pequeños y por lo tanto conviene tenerlo presente y tratar el tema con su pediatra.
+
+
+
+Propensos o no, nunca está de más prestar especial atención a la introducción de dichos alimentos aunque sin obsesionarse, puesto que las tasas de afectados no son tan altas como pueden parecernos. Si, por ejemplo, tememos una gran reacción, podemos limitar la ingesta de los mismos durante los primeros contactos para minimizar las posibles consecuencias.
+
+
+
+Existen además ciertos protocolos de introducción en algunos de ellos, como el gluten o el huevo. En el primer caso está recomendado su introducción desde el principio pero de manera gradual. En el caso del huevo existen diferencias de opinión, hay quién defiende el introducirlo directamente entero o quién prefiere hacerlo por partes y de forma progresiva por dos motivos: para evitar grandes reacciones y porque existen casos en que se tolera una parte y la otra no. En cualquier caso, éste siempre debe estar bien cocinado para evitar toxiinfecciones como la salmonella.
+
+
+
+Existen ciertos alimentos como el tomate o la berenjena que debido a su contenido en histamina pueden originar pequeñas reacciones en la piel del bebé pudiendo parecer consecuencias de una alergia, sin embargo estas irritaciones no son motivadas por esto y desaparecen en un rato, más rápidamente si aplicamos agua.
+
+### Formas de presentación
+Si iniciamos la alimentación complementaria directamente con sólidos se recomienda que los trozos sean suficientemente grandes, incluso lo suficiente para que no le quepan en la boca enteros ¿Por que? Por dos motivos:
+1. Si los trozos son demasiado pequeños, probablemente el bebé no tendrá la capacidad motriz de cogerlos hasta pasados unos meses y esto puede llevarle a la frustración.
+
+2. Si es él mismo quién muerde o trocea la comida, además de todo el aprendizaje que esto conlleva está siendo consciente del tamaño que debe gestionar y lo hará de forma más confiada.
+
+Por ello, se recomienda presentar la comida en forma de palitos que puedan agarrar y sobresalgan de sus pequeños puños para que puedan mordisquearlo. Si por su forma hay alimentos no es posible presentar de ese modo, lo importante es que cumplan los principios de tamaño y facilidad de agarre, sea cual sea su forma. Algunos ejemplos:
+
++ Zanahoria, calabacín y otras verduras: son fácilmente transformables en palitos.
+
+
++ Brocoli, coliflor: en ramilletes
+
++ Naranja y otras frutas
+  En gajos. Muchas veces son resbaladizas, resulta una buena idea dejarles la piel para un mejor agarre, siempre que esté bien lavada.
+
+  Los zumos, aun naturales, contrariamente a lo que se tiende a pensar no son una opción tan saludable: Un zumo suele contener bastantes más piezas de fruta de las que la persona comería, esto suma grandes cantidades de azúcar y elimina la fibra, una de las partes más beneficiosas de este tipo de alimentos.
+
++ Pasta
+  Suelen gestionarla muy bien tal cuál.
+
+
++ Arroz y similares
+  Hasta más adelante no saben hacer la pinza, por eso les puede resultar más complicado de comer. Una buena opción es cocerlo hasta el punto pasado y hacer bolas compactas de arroz que pueda gestionar mejor. También pueden hacerse hamburguesas, croquetas y otras recetas a base de arroz.
+
+
++ Carne
+  Es una buena idea cortarla en el sentido contrario a las fibras para que sea más tierna y fácil de masticar. A parte de eso, podemos presentarla en forma triturada (hamburguesas, croquetas…) o de forma natural, cortada en tiras o incluso directamente en casos como costillas o muslos de pollo, por ejemplo.
+
+  Recuerda que siempre debe estar bien cocinada para evitar toxiinfecciones.
+
+
++ Cremas y texturas semilíquidas
+  Podemos ayudarles con una cuchara, untarlas en pan o dejarles un bol y pan para que sean ellos mismos los que mojen.
+
+
++ Huevo
+  Admite muchas formas de presentación y además es un ingrediente bastante común en muchas preparaciones. Es importante evitar aquellas en que el huevo no quede cocinado completamente, como mayonesas, huevos fritos, escalfados o pasados por agua en que la yema queda semilíquida, por lo menos hasta los 3 años, para evitar toxiinfecciones.
+
+
++ Olivas, cerezas, uvas y otros alimentos redondos
+  Tal como ya hemos comentado en el apartado de seguridad, conviene presentarlas partidas en cuartos para evitar accidentes.
+
+
++ Salchichas tipo frankfurt
+  La realidad es que no resulta muy conveniente ofrecer este tipo de alimentos, además de que no será hasta más adelante que podrá comerlo por el simple hecho de tener todos los ingredientes que los componen introducidos. No obstante, cabe remarcar que en caso de ofrecerlos, tal como ya se ha comentado anteriormente, debemos hacerlo partiéndolos en semicírculos en lugar de círculos para evitar accidentes.
+
+  Otra opción segura es dejar que vaya dando mordiscos directamente.
+
+
++ Agua
+  Es conveniente ofrecer agua desde el comienzo de la alimentación complementaria, aunque no debemos obsesionarnos con que beba ya que probablemente estará obteniendo la hidratación necesaria gracias a la lactancia materna o artificial.
+
+  Podemos dejarla a su alcance mientras come, con un vaso normal o de aprendizaje, según sus preferencias y las de la familia.
+
+## Recetas adaptadas
+El Baby Led Weaning está muy relacionado con el ejemplo, con que toda la familia coma lo mismo y para ello, a veces debemos adaptar las recetas que cocinamos. Esto no significa que debamos cambiar nuestra alimentación de siempre, simplemente se trata en muchas ocasiones de modificar algún proceso de cocinado, como por ejemplo echar la sal a final de cocción para apartar antes la ración del bebé, o de prescindir o sustituir algunos de los ingredientes por otros aptos para el pequeño.
+
+Puede parecer complicado o que te limita bastante en la cocina, pero te aseguramos que no es así, que la variedad es infinita y para ayudarte en esta etapa te mostramos algunos de los platos adaptados en el recetario de nuestro blog, que poco a poco vamos ampliando.
+
+## FAQ
+¿Puedo darle sólidos aunque no tenga dientes?
+
+
+Como sabes, existen varios requisitos para que un bebé pueda comenzar a comer sólidos de manera segura, pero el hecho de que tenga dientes no es uno de ellos. Es evidente que no le daremos comida dura que no pueda gestionar (algo que ya hemos comentado en el apartado sobre seguridad), pero cualquier tipo de comida que podamos chafar o deshacer con nuestros dedos de manera fácil será adecuada para el bebé, tenga o no tenga dientes. Tan solo es necesario el sentido común.
+
+¿Es normal que haya trozos de comida en las cacas?
+
+
+Es un proceso completamente normal. El organismo está aprendiendo a gestionar y procesar los alimentos y con el tiempo dejarán de haber tantos trozos. Esto sucede de igual manera con las papillas, pero en ese caso no es tan fácil de detectar y por tanto se tiende a pensar que esto no ocurre, sin embargo el sistema digestivo trabaja de igual manera ante la nueva alimentación independientemente del formato de su introducción.
+
+¿No se digieren mejor las papillas?
+
+
+Esta pregunta suele ser muy común al descubrir los trozos de comida en el pañal, pero tal como hablábamos en la anterior cuestión el proceso digestivo es el mismo, simplemente cambia el hecho de ver los trozos o no verlos, ya que evidentemente si entra triturado, así saldrá también.
+
+No es cierto que la papilla se digiera mejor que los trozos, puesto que de ser así, continuaríamos comiendo papillas durante toda nuestra vida, no habría razón para pasar a los sólidos.
+
+Además la digestión comienza en la boca, con la saliva. Por lo tanto, practicando BLW el bebé gestiona la comida, aprende a masticar y después a tragar iniciando así todo el proceso digestivo desde el minuto uno, esto es algo que no sucede con las papillas, que se tragan directamente.
+
+¿Es normal que se meta la comida en la boca pero la escupa?
+
+
+Esto puede suceder sobretodo al principio y no significa que no le guste la comida sino que está desarrollando su coordinación bucal.
+
+Tengamos presente que hasta el momento solo lactaba, y el movimiento de la lengua, mejillas y mandíbulas es muy distinto para lactar que para gestionar sólidos, por lo tanto tiene que aprender a tragar estos nuevos alimentos.
+
+Con el tiempo y la práctica lo dominará sin problemas.
+
+¿No se acostumbrará a comer con las manos?
+
+
+Pongamos un ejemplo para ver lo absurdo de esta pregunta: Los bebés gatean antes de caminar, ¿Piensa alguien por ese motivo que el bebé se acostumbrará a gatear y jamás querrá caminar?
+
+Como en el ejemplo, el aprendizaje de comer es un proceso que pasa por distintas fases, sin embargo el bebé siempre tiende a imitar, a querer evolucionar y por lo tanto, como todos aprenderá a comer con cubiertos.
+
+¿Cuando empiezan a notarse los avances?
+
+
+Como ya hemos dicho, cada niño tiene su propio ritmo y debemos respetarlo. No obstante, de forma genérica suelen notarse avances en cuanto a la cantidad y las habilidades de gestión de alimentos entre los 9 y 12 meses.
+
+Es importante recordar que este es un dato aproximado y que nada sucede si los avances tardan más en aparecer. Es cuestión de confianza y paciencia.
+
+Comía super bien y de repente come menos ¿Qué hago?
+
+
+Puede ocurrir que sobre el año (puede ser antes o después) disminuya la cantidad de ingesta, es lo que muchos llaman “la crisis del año”. Sin embargo, no se trata de una crisis sino de algo natural para su desarrollo, y es que llegado a esa edad, el crecimiento es más pausado y por lo tanto sus necesidades nutricionales también se ven disminuidas.
+
+Ante la pregunta ¿qué hago? responderíamos: confiar en la autorregulación.
+
+¿Es apto el BLW para todos los niños?
+
+
+Aunque la mayoría de veces la respuesta es afirmativa, sí conviene tener en cuenta que existen diversos casos en que este tipo de alimentación puede NO estar recomendada.
+
+Para empezar, debemos tener presente que si el bebé es prematuro, probablemente convendrá esperar a la edad corregida para comenzar con la alimentación en lugar de iniciar en la edad cronológica.
+
+Otros casos especiales son los de bebés que padecen, entre otros:
+
+Sindrome de down
+Debilidad muscular
+Deformidades en la boca, brazos o espalda
+Espina bífida
+Paralisis cerebral
+Sea como sea, conviene siempre consultar al profesional sanitario ante cualquier tipo de duda.
+
+¿Y sí en casa somos vegetarianos / veganos?
+Lo lógico es que los pequeños se adapten a lo que come la familia y en el caso de que ésta sea vegana o vegetariana es normal que así sea también. Los niños, como los adultos, pueden alimentarse descartando ciertos alimentos y no por ello tener carencias, pero sí es cierto que conviene informarse y resulta interesante comentar el tema con expertos en nutrición para estar seguros de que la dieta ofrecida aporta todos los nutrientes necesarios para nuestro organismo y el del pequeño.
+
+¿Qué opinan los profesionales sanitarios del método?
+
+
+En cuanto a este tema, hay diversidad de opiniones dentro del sector sanitario y lamentablemente no todos se rigen por los mismos principios. Por lo tanto, puedes encontrar pediatras que estén totalmente en contra del método alegando lo peligroso que les parece, otros que lo recomienden, algunos que se mantengan al margen y respeten tu decisión o incluso los que desconozcan por completo el método, en cuyo caso se posicionarán en contra o a favor según su propio criterio y experiencia. En definitiva, el tema de la alimentación no es una ciencia exacta y por lo tanto es algo en lo que los pediatras entran muchas veces de manera más subjetiva que objetiva.
+
+Es cierto, sin embargo, que las fuentes oficiales sí reconocen el Baby Led Weaning como un método de alimentación tan válido y seguro como el de las papillas e incluso existen ciertos organismos que lo recomiendan.
+
+
 
 
 
