@@ -204,6 +204,29 @@ sin sufriimiento no evolucionamos. Por mucho que tratemos de evitar el sufrimien
 A veces queriendo evitar el sufrimiento de nuestros hijos porque aparte de su sufrimiento tienen que cargar.
 Cuando queremos hacer cosas para que nuestros hijos no sufran les estamos transmitiendo desconfianza porque nuestros hijos son fuertes.
 
+## Cómo aumentar la valoración de nuestros hijos sin que sea condicional?
+Si no queremos valoración condicional para nuestros hijos significa que tenemos que encontrar una manera incondicional de valorarlos. Y eso significa que debemos valorar el ser verdadero de nuestros hijos, su esencia, eso que es permanente, brillante, auténtico, lleno de vida, lleno de luz, más allá de sus comportamientos y logros.
+Si los valoramos en base a sus logros, sus estudios, sus aficiones, su comportamiento, se trata de una valoración *condicional*.
+En su lugar tenemos que hacerles llegar que los valoramos por lo que son.
+
+Valoramos incondicionalmente a nuestros hijos cuando nos posicionamos en 3 ejes que nos pueden guiar. Podemos tratar de ver y reconocer su:
+1. fuerza vital: todo lo que tiene que ver con eso, la *energía* que ponen cuando hacen o dicen las cosas, su fuerza de vida, esa lucha, el buscar maneras de hacer cosas, separándolas de las cosas que nos gustan o no nos gustan
+ej: cómo consigue que le mires, que estés de él
+2. amor: muchas de las cosas que hacen al cabo del día están llenas de amor, de cariño que les salen a borbotones porque esa es su verdadera naturaleza.
+ej: cómo me gusta cuando sonríes, cómo me gusta cuando me llamas, cómo me gusta cuando protestas porque algo no te ha gustado
+3. inteligencia: nos han hecho creer que la inteligencia es la que se manifiesta en el colegio, la que se mide con tests, con resultados académicos y eso es solo una parte de la inteligencia. Todo ser humano nace con una inteligencia innata y ésta se manifiesta día a día de nuestros hijos.
+Esas 3 cosas siempre están en tod@s y cada un@ de nosotr@s!!
+
+## El rechazo
+No hay rechazo! Rechazo es la interpretación que nosotros damos cuando alguien dice "No". Le ponemos la intención a la otra persona de que nos rechaza. Si nuestro hijo quiere jugar en el parque con otros niños y éstos le dicen que no, lo que podemos hacer es acompañarles para que no interpreten esa situación como rechazo, sino que se quede con los hechos.
+
+Es importante enseñarlos desde temprano porque el rechazo es una herida que duele toda la vida, a cualquier edad.
+Pasos:
+1. darle empatía: "estás triste, frustrado, ..". tus necesidades son de divertirte, entretenerte, relacionarte. Y con esos ni~õs no es posible. A lo mejor es porque son muy complices y no te conocen
+2. Acompañarle para ver qué se puede hacer para que le digan que sí. Darle impulso. "A lo mejor si compartes uno de tus juguetes con ellos te digan que sí", etc...
+3.Y si esos niños realmente no quieren jugar con ella, cómo puede hacer para tener otros amigos? Poner la clave en que ella desarrolle recursos para que pueda ser aceptada en otros grupos y tener amigos y jugar.
+4. En otro momento (porque en ese momento lo importante es darle empatía a tu hijo), poder dar empatía a esos niños que no quieren jugar, darles comprensión para ayudar a tu hijo a que no le llame rechazo
+
 
 ## Deberes
 
