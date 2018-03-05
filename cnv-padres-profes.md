@@ -227,6 +227,27 @@ Pasos:
 3.Y si esos niños realmente no quieren jugar con ella, cómo puede hacer para tener otros amigos? Poner la clave en que ella desarrolle recursos para que pueda ser aceptada en otros grupos y tener amigos y jugar.
 4. En otro momento (porque en ese momento lo importante es darle empatía a tu hijo), poder dar empatía a esos niños que no quieren jugar, darles comprensión para ayudar a tu hijo a que no le llame rechazo
 
+## Rabia
+La rabia nace de necesidades pisoteadas a veces por nosotros mismos.
+Hay 10 pasos para trabajar con la rabia:
+1. Identificar el enfado corporal y energéticamente
+  Observar señales del cuerpo. Es importante coger esos signos antes de que "explote el volcán" para poder coger otro camino antes de explotar
+2. Pensar en cómo voy a actuar desde el enfado y en sus consecuencias
+3. Qué es lo que ha pasado? Cuáles son los hechos *neutros*?
+4. Cómo me sientoademás de con rabi, enfadado, molesto o irritado?
+5. Cuáles son mis reproches y acusaciones?
+6. en base a estos reproches Qué necesito?
+7. Qué me pidoa mi misma/opara cuidar de esas necesidades? Qué quiero pedirle a la otra persona?
+8. Cuáles son los hechos, sentimientos, y necesidades de la otra persona?
+9. Abordo el diálogo
+10. Chequeo si me queda algo por expresar o alguna otra acción a llevar a cabo para cuidar de mis necesidades y de esa relación
+
+## Buen padre/Buena madre
+Como padres no podemos hacerlo bien. Lo hacemos lo mejor que podemos! Es importante liberarse de esto. La zanahoria de "hacerlo bien" nunca llega en la labor de padre/madre.
+Ser perfecto y hacerlo bien es un imposible así que es importante *liberar esa carga* y así podemos encontrar una gran paz y podremos abrirnos a darnos todo el reconocimiento y la valoración de lo que hacemos y cuidarnos.
+
+=> La clave está en reconocernos, vaolorarnos y sentirnos importantes en lo que somos ahora, con los duelos correspondientes de lo que nos hubiese gustado hacer mejor.
+*Y* reconocernos, valorarnos y sentirnos importantes en nuestros niños (los niños que fuimos, nuestra infancia) porque cuando nuestros niños están cuidados, podremos cuidar a nuestros hijos.
 
 ## Deberes
 
