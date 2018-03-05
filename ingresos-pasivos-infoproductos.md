@@ -2,8 +2,7 @@
 CÓMO CONSEGUIR INGRESOS PASIVOS CREANDO INFOPRODUCTOS
 -----------------------------------------------------
 
-## Lección 1
-
+## Ingresos pasivos
 
 Ingresos pasivos son todos aquellos que se perciben de forma automática o casi una vez que has realizado “algo” para que así se produzca.
 
@@ -37,9 +36,8 @@ Los infoproductos además son muy cómodos de realizar ya que no requieren de in
 
 Son el producto perfecto para quien quiere percibir ingresos pasivos desde ya sin necesidad de esperar a que se cumplan condiciones.
 
-## Lección 2
+## Preguntas
 
-45.16
 
 ### ¿Qué necesito exactamente para crear un infoproducto?
 
@@ -79,3 +77,33 @@ También, si quieres, puedes crear tu propia plataforma web.
 ### ¿Hay que utilizar algún tipo de herramienta, software o soporte de pago para crear infoproductos?
 
 No, puede ser que haya herramientas pero todas tienen su versión gratuita y de pago. Si quieres empezar sin gastos puedes hacerlo, y si luego quieres mejorar también.
+
+
+
+## Cómo se crean y venden los infoproductos para que puedas obtener buenos beneficios.
+
+
+
+Las etapas a recorrer en el proceso son cuatro:
+
+
+
+### Primera.- Trabajo interior para determinar cómo puedes identificar lo que sabes al objeto de crear con ello.
+
+
+### Segunda.- Trabajo “hacia fuera” para determinar
+
+  + Cómo puedes darle una utilidad práctica;
+  + Cómo determinar lo que necesita la gente
+  + Y cómo decírselo en su lenguaje.
+
+### Tercera.- Trabajo de creación: crear el infoproducto.
+
+### Cuarta.- Trabajo de comunicación. Una vez creado el infoproducto debes venderlo. Para eso debes comunicar lo que has hecho, lo cual a su vez supone:
+
+  + Utilizar o configurar las plataformas de venta necesarias, y
+  + Utilizar el marketing como trampolín y mecanismo de apalancamiento hacia el éxito.
+
+
+
+
