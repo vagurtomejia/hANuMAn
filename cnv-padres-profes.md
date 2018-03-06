@@ -241,6 +241,17 @@ Hay 10 pasos para trabajar con la rabia:
 8. Cuáles son los hechos, sentimientos, y necesidades de la otra persona?
 9. Abordo el diálogo
 10. Chequeo si me queda algo por expresar o alguna otra acción a llevar a cabo para cuidar de mis necesidades y de esa relación
+## Enfado de los niños (min 35 sesion 7 - completar)
+Debemos distinguir la acción del enfado de nuestros hijos.
+
+## Valores
+El modelo societal que tenemos para transmitirles los valores a nuestros hijos es imponerlos. La exigencia quita las ganas!
+ej: "tienes que compartir!", "tienes que ser generoso"
+Entre adultos eso tampoco funciona! Cada quien tiene sus propios valores.
+
+La manera correcta de hacerlo en CNV es dialogar desde nuestros propios valores.
+ej: "te han dado esto. como te lo han dado los quieres guardar porque disfrutas mucho de ello? Es asi? Al mismo tiempo quería decirte que para mi es muy importante que nos cuidemos todos, que compartamos las cosas. Sería posible para ti el compartir?"
+Si dice que no se continua con el dialogo empático.
 
 ## Buen padre/Buena madre
 Como padres no podemos hacerlo bien. Lo hacemos lo mejor que podemos! Es importante liberarse de esto. La zanahoria de "hacerlo bien" nunca llega en la labor de padre/madre.
