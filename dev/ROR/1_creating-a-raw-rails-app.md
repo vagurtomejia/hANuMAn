@@ -29,8 +29,8 @@ directories hierarchy: ![directories hierarchy image](./MVC-workflow.png "Direct
 
 ### Controllers
 - controllers contain actions
-- Rails can quickly generate controllers and its associated views by: 
-`rails generate controller controller_name [action1 action2]` or 
+- Rails can quickly generate controllers and its associated views by:
+`rails generate controller controller_name [action1 action2]` or
 `rails g controller controller_name [action1 action2]`
 
 ie: `rails g controller greeter hello` generates:
@@ -46,7 +46,7 @@ ie: `rails g controller greeter hello` generates:
 - each individual page gets displayed inside the body of this layout (instead the yield tag)
 ## ERB
 - ERB is a templating library that lets you embed Ruby into your HTML
-- two tag patterns to learn: 
+- two tag patterns to learn:
 - `<% ...ruby code... %>` evaluate Ruby code
 - `<%= ...ruby code... %>` output evaluated Ruby code
 ## CSS
@@ -68,7 +68,7 @@ Helpers
 - Helpers are "macros"/"formatters" for your view
 - they are used when you wnt to reuse some peice of code in different views
 - there are some built-in helpers in Rails: link_to name, path, image_tag, cycle, etc.
-ie: 
+ie:
 - link_to("Adiós", greeter_goodbye_path)
 - image_tag("/icons/icon.gif", height: '32', width: '32')
 - params "hash" retrieves the value (name of parameter becomes a symbol/key in the Hash). It returns 'nil' if request parameter not passed in
@@ -77,8 +77,8 @@ ie:
 Gems
 ----
 - https://rubygems.org/
-- Gem is a package manager for Ruby 
-ex in terminal: 
+- Gem is a package manager for Ruby
+ex in terminal:
 
 ```
 gem install [name of gem]
@@ -103,7 +103,7 @@ Use -d option to get more details:
 ![Version constraints image](./version-constraints.png "Version constraints")
 + occasionally, the name of the gem to be used inside require statments is different than the name of the gem:
 `gem 'sqlite3-ruby', require: 'sqlite3'`
-+ it is also possible to use a different version of Rails (ie `gem 'rails', '4.2.3'`) if you change the version and run `bundle update`. 
++ it is also possible to use a different version of Rails (ie `gem 'rails', '4.2.3'`) if you change the version and run `bundle update`.
 + Bundler creates a Gemfile.lock file, which contains the actual gem versions your app is using with their associated dependencies.
 + `bundle exec` uses the executable of a gem. By using it you can require and call the bundled gems as if they were installed into the systemwide Rubygems repository.
 
@@ -188,6 +188,16 @@ Press Control+C to stop streaming the logs.
 heroku ps:scale web=0
 heroku ps:scale web=1
 
+## Rails console
+Equivalent of IRB with Rails app loaded:
+```shell
+$rails c
+```
+To load last database changes:
+```shell
+$reload!
+```
+
 Blackbox testing with Capybara
 ------------------------------
 1. Install PhantomJS (http://phantomjs.org/)
@@ -202,6 +212,10 @@ $ gem install poltergeist
 4. Run the following in your terminal (right outside of `spec` dir):
 ```shell
 $ rspec -f d
+```
+5. To focus test feedback on a specific step of the requirements, add "-e rq##" to the rspec command line to only evaluate that requirement. Pad all step numbers to two digits:
+```shell
+$ rspec -e rq01
 ```
 
 Note:
@@ -232,7 +246,7 @@ git commit -m "Initial commit"
 
 ### Adding controllers:
 
-`rails generate controller controller_name [action1 action2]` or 
+`rails generate controller controller_name [action1 action2]` or
 `rails g controller controller_name [action1 action2]`
 
 ex: `rails g controller greeter hello` generates:
@@ -300,6 +314,7 @@ gem install webmock
 Creating a rails app commands suite:
 ------------------------------------
 
+```shell
 rails new recipehunter
 cd recipehunter
 git init
@@ -314,6 +329,7 @@ git commit -m "Adds rspec tests"
 
 rails g controller recipes index
 rails generate model RecipesFinder
+```
 
 
 
