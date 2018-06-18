@@ -47,7 +47,7 @@ The join table need to only exist in the database but not in Ruby code!
 
 
 ## :dependent
-has_many, has_one and belongs_tosupport :dependent option which specifies what happens when the parent gets destroyed
+has_many, has_one and belongs_to support :dependent option which specifies what happens when the parent gets destroyed
 
 1. :delete - remove associated objects
 2. :destroy - same as above but removes the association by calling destroy on it
@@ -60,7 +60,7 @@ has_many, has_one and belongs_tosupport :dependent option which specifies what h
 It happens into the Model class definition
 
 eg: in class Job
-validates :totle, :company, presence: true
+validates :title, :company, presence: true
 
 Here are some common validators:
 :presence true - make sure the field contains some data
@@ -75,7 +75,7 @@ If and object is created and the the data is not validated, we can have the erro
 ```ruby
 job = Job.new
 job.save
-job.errors_full_messages #=> ["Totle can't be blank", "Company can't be blank"]
+job.errors_full_messages #=> ["Title can't be blank", "Company can't be blank"]
 ```
 .errors_full_messages gives an array of all the errors that currently exist that are preventing the object to been saved to the database
 
@@ -92,7 +92,10 @@ Specify it as a symbol for the validate method
 
 Creating a rails app with a database with different associations commands suite:
 ----------------------------------------------------
+## Schema design
 
+
+## Command suite
 rails new advanced_ar
 cd advanced_ar
 rails g model person first_name age:integer last_name
@@ -148,4 +151,61 @@ jesus.approx_salaries
 
 Person.ordered_by_age.pluck :age
 Person.ordered_by_age.starts_with("J").pluck :age, :first_name
+
+## Models
+
+## Hobby
+class Hobby < ActiveRecord::Base
+  has_and_belongs_to_many :people
+  default_scope {order :name}
+end
+
+## Job
+class Job < ActiveRecord::Base
+  belongs_to :person
+  has_one :salary_range
+
+  validates :title, :company, presence: true
+end
+
+## Person
+class Person < ActiveRecord::Base
+  has_one :personal_info, dependent: :destroy
+  has_many :jobs
+  has_many :my_jobs, class_name: "Job"
+  has_and_belongs_to_many :hobbies
+  has_many :approx_salaries, through: :jobs, source: :salary_range
+
+def max_salary
+  approx_salaries.maximum(:max_salary)
+end
+
+scope :ordered_by_age, -> { order age: :desc}
+scope :starts_with, -> (starting_string){ where("first_name LIKE ?", "#{starting_string}%")}
+
+end
+
+
+## PersonalInfo
+class PersonalInfo < ActiveRecord::Base
+  belongs_to :person
+end
+
+## SalaryRange
+class SalaryRange < ActiveRecord::Base
+  belongs_to :job
+
+  validate :min_is_less_than_max
+
+  def min_is_less_than_max
+    if min_salary > max_salary
+      errors.add(:min_salary, "cannot be greater than maximum salary!")
+    end
+  end
+
+end
+
+
+
+
 
