@@ -1,0 +1,37 @@
+## Using initializers for application-wide variables
+
+Rails loads all files in config/initializers/ folder, which is a good place to init application-wide variables here. For instance, we can create a file business.rb under the initializers directory:
+
+```ruby
+module Business
+  class Logic
+    Here = "hello world"
+  end
+end
+```
+
+
+Filename and module name can be anything. I suggest use something directly related to the business logic as the module name, like your company name or what. It offers better understanding when reading the code.
+
+Thus you can use it anywhere, in controllers, for example:
+
+```ruby
+class ApplicationController < ActionController::Base
+  # Prevent CSRF attacks by raising an exception.
+  # For APIs, you may want to use :null_session instead.
+  protect_from_forgery with: :exception
+
+  def set_logic
+    @logic ||= Business::Logic::Here
+    # => 'hello world'
+  end
+end
+```
+
+or in any file in the project.
+
+One bad thing is that we have to restart server at any change in this file since it is only 'initialized' at server start.
+
+However, using initializers ensure the scope of different variables are in the same class, and we can create different files, modules, and classes for variables in different scopes. I believe this is the best way to manage application-wide variables so far.
+
+source: http://motion-express.com/blog/global-variables-in-rails-4

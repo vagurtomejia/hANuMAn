@@ -261,25 +261,45 @@ ex2:
 http://localhost:3000/greeter/hello
 
 ### Deploying to heroku:
-- Add the following code to the app Gemfile:
-```
+
+Add the following code to the app Gemfile:
+
+```ruby
 gem 'sqlite3', group: :development #if using sqlite for development mode
 ```
 and
-```
+
+```ruby
 group :production do
 gem 'pg', '~> 0.20'
 gem 'rails_12factor' #for Heroku
 end
 ```
-- `bundle install`
-- `git add .`
-- `git commit -m "Adds postgresql gem for production as required by Heroku"`
-- `heroku login`
-- `heroku create [name of the app]`
-- `git push heroku master`
-- `heroku open`
 
+On the terminal:
+```shell
+bundle install
+git add .
+git commit -m "Adds postgresql gem for production as required by Heroku"
+heroku login
+heroku create [name of the app]
+git push heroku master
+heroku open
+```
+
+To manage the database, on the terminal:
+```shell
+heroku run rake db:migrate
+heroku restart
+heroku run rake db:seed
+```shell
+
+(After running a migration you’ll want to restart your app with heroku restart to reload the schema and pickup any schema changes.)
+
+### Other useful database commands:
+heroku pg:info
+heroku pg:reset
+(The db:reset task is not supported. Heroku apps do not have permission to drop and create databases. Use the heroku pg:reset command instead.)
 
 
 OSX
