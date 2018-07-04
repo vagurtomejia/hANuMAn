@@ -1,88 +1,7 @@
 Building a complete Rails app tutorial
 ======================================
 
-rails new maleta_de_cuentos
-cd maleta_de_cuentos
-git init
-git add .
-git commit -m "Initial commit"
----
-bundle install
-
-rails g scaffold Usuario nombre_de_usuario nombre apellidos dni email contrasena
-rake db:migrate
-
-rails g scaffold Cuento titulo autor nacionalidad region editorial ISBN archivo
-
-rake db:migrate
-
-
-```shell
-gem install carrierwave
-gem install bootstrap-sass
-```
-
-Open up your gemfile and add the following two gems at the bottom:
-
-```ruby
-# gems for file upload management
-gem 'carrierwave', '~> 0.9'
-gem 'boostrap-sass', '~> 2.3.2'
-```
-
-```shell
-rails g migration add_archivo_to_cuentos archivo
-rails g uploader archivo
-```
-
-Now open the resume model and call the uploader as shown below. Add the following code into app/models/cuento.rb:
-```ruby
-class Cuento < ActiveRecord::Base
-  mount_uploader :archivo, ArchivoUploader # Tells rails to use this uploader for this model.
-   validates :titulo, presence: true # Make sure the cuento's title is present.
-end
-```
-
-
-Before working on controller, we need to modify our config/routes.db as shown below: Add
-
-root 'cuentos#index'
-
-
-Lets us edit the controller as shown below.
-
-class CuentosController < ApplicationController
-   def index
-      xxxxxx
-
-
-
-Let's add bootstrap implementation in css file.css file could be in app/assets/stylesheets/resumes.css.scss
-
-```ruby
-@import "bootstrap";
-```
-
-Now open up app/views/layouts/application.html.erb and add code into the body tag as shown below −
-
-```html
-   <body>
-      <div class = "container" style = "padding-top:20px;">
-         <%= yield %>
-      </div>
-   </body>
-
-```
-
-
-
-
-
-
-
-
-====================
-====================
+# Initializing
 
 ```shell
 rails new maleta_de_cuentos
@@ -485,6 +404,87 @@ source: https://kernelgarden.wordpress.com/2014/02/26/dynamic-select-boxes-in-ra
 
 
 
+
+
+
+
+# Scaffolding method
+
+# Initializing
+```shell
+rails new maleta_de_cuentos
+cd maleta_de_cuentos
+git init
+git add .
+git commit -m "Initial commit"
+bundle install
+```
+
+## Creating the models
+rails g scaffold Usuario nombre_de_usuario nombre apellidos dni email contrasena
+rake db:migrate
+
+rails g scaffold Cuento titulo autor nacionalidad region editorial ISBN archivo
+
+rake db:migrate
+
+
+```shell
+gem install carrierwave
+gem install bootstrap-sass
+```
+
+Open up your gemfile and add the following two gems at the bottom:
+
+```ruby
+# gems for file upload management
+gem 'carrierwave', '~> 0.9'
+gem 'boostrap-sass', '~> 2.3.2'
+```
+
+```shell
+rails g migration add_archivo_to_cuentos archivo
+rails g uploader archivo
+```
+
+Now open the resume model and call the uploader as shown below. Add the following code into app/models/cuento.rb:
+```ruby
+class Cuento < ActiveRecord::Base
+  mount_uploader :archivo, ArchivoUploader # Tells rails to use this uploader for this model.
+   validates :titulo, presence: true # Make sure the cuento's title is present.
+end
+```
+
+
+Before working on controller, we need to modify our config/routes.db as shown below: Add
+
+root 'cuentos#index'
+
+
+Lets us edit the controller as shown below.
+
+class CuentosController < ApplicationController
+   def index
+      xxxxxx
+
+
+
+Let's add bootstrap implementation in css file.css file could be in app/assets/stylesheets/resumes.css.scss
+
+```ruby
+@import "bootstrap";
+```
+
+Now open up app/views/layouts/application.html.erb and add code into the body tag as shown below −
+
+```html
+   <body>
+      <div class = "container" style = "padding-top:20px;">
+         <%= yield %>
+      </div>
+   </body>
+
+```
 
 
 
