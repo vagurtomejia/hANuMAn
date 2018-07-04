@@ -1,7 +1,7 @@
 Building a complete Rails app tutorial
 ======================================
 
-# Initializing
+## Initializing
 
 ```shell
 rails new maleta_de_cuentos
@@ -10,20 +10,24 @@ git init
 git add .
 git commit -m "Initial commit"
 bundle install
+```
 
 ## Modelos de Tipo y Subtipo
 
+```shell
 rails g model Tipo nombre
-
+```
 El modelo Subtipo es una combinación de primary key, nombre y foreign key (FK) que apunta hacia un Tipo
 
+```shell
 rails g model Subtipo nombre tipo:references
-
+```
 models/tipo.rb:
 ```ruby
 class Tipo < ApplicationRecord
   has_many :cuentos
 end
+```
 
 models/subtipo.rb:
 ```ruby
@@ -31,9 +35,10 @@ class Subtipo < ApplicationRecord
   belongs_to :tipo
   has_many :cuentos
 end
-
+```
 ## Modelo de Cuento
 
+```shell
 rails g model Cuento titulo autor nacionalidad region editorial isbn personaje:text tema:text version:text archivo tipo:references subtipo:references
 rake db:migrate
 ```
