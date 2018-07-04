@@ -1,33 +1,33 @@
 
-#Classes
+# Classes
 
-##Class variables
+## Class variables
 These are variables whose scope is limited to the class that they are defined in. Class variables are defined with @@ at the beginning of the name of the variable.
 
-##Instance variables
+## Instance variables
 These are variables whose scope is limited to one particular instance of a class. They are defined with @ at the beginning of the name of the variable.
 
-##Accessors
-###Short hand accessors
+## Accessors
+### Short hand accessors
 ```ruby
 attr_accessor :name, :position
 attr_reader :id
 attr_writer :other
 ```
-###Long hand accessors
+### Long hand accessors
 
     def name=(new_name)
       @ = new_name
     end
 
-##Inheritance
+## Inheritance
 
-###How to define inheritance?
+### How to define inheritance?
 
     Therapist < HealthProfessional
     Dentist < HealthProfessional
 
-###Initialize method
+### Initialize method
 We do not need to re-define the initialize method in Therapist and Dentist unless they need to do something specific and in that case we can :
 
     class Therapist < HealthProfessional
@@ -37,8 +37,8 @@ We do not need to re-define the initialize method in Therapist and Dentist unles
     end
 super finds the method of the same name on the parent class and runs that, so we can use it any method, not just in initialize
 
-#Modules
-##Initialize Instance Variables Defined by a Module
+# Modules
+## Initialize Instance Variables Defined by a Module
 ex: Here's a Timeable module that tracks when objects are created and how old they are:
 
     module Timeable
@@ -61,12 +61,12 @@ Timeable has an instance variable time_created, and an initialize method that as
         super() #calls Timeable's initialize
       end
     end
-  
+
     c = Character.new "Fred"
     c.time_created
     # => Mon Mar 27 18:34:31 EST 2006
 
-#Blocks
+# Blocks
 
 ## Example of method that accepts a block and returns how many seconds it takes to execute the code in the block:
 
@@ -77,13 +77,13 @@ Timeable has an instance variable time_created, and an initialize method that as
       end_time-start_time
     end
 
-##Example of use:
+## Example of use:
     long_string = "abcde" * 5000000
     reverse_run_time = benchmark { long_string.reverse }
     puts "The #reverse method took #{reverse_run_time} seconds to run."
 
-#Regular expressions
-##Examples of use
+# Regular expressions
+## Examples of use
 ### Determine whether a string contains a Social Security Number.
 def has_ssn?(string)
   string.match(/\d{3}-\d{2}-\d{4}/) != nil
@@ -99,7 +99,7 @@ def grab_all_ssns(string)
   string.scan(/\d{3}-\d{2}-\d{4}/)
 end
 
-#Errors
+# Errors
     class OrangeTree
       attr_reader :age, :height, :oranges
       # Define a custom exception class
@@ -117,11 +117,11 @@ end
       end
     end
 
-#RSpec
+# RSpec
 
 
-##Matchers
-###Predicate matchers
+## Matchers
+### Predicate matchers
 Ruby objects commonly provide predicate methods:
 
     7.zero?                  # => false
@@ -157,13 +157,13 @@ Any arguments passed to the matcher will be passed on to the predicate method.
 
 [Reference](https://www.relishapp.com/rspec/rspec-expectations/docs/built-in-matchers/predicate-matchers)
 
-###Collection membership 
+### Collection membership
     expect(actual).to include(expected)
     expect(array).to match_array(expected_array)
     # ...which is the same as:
     expect(array).to contain_exactly(individual, elements)
 
-##Examples
+## Examples
     it "has a readable name" do
       expect(company.company_name).to eq("Monsters Inc.")
     end
@@ -223,14 +223,14 @@ Any arguments passed to the matcher will be passed on to the predicate method.
 
 
 
-#Data structures
-##String
+# Data structures
+## String
 [Ruby doc](http://ruby-doc.org/core-2.1.5/String.html)
 
-##Arrays
+## Arrays
 [Ruby doc](http://ruby-doc.org/core-2.1.5/Array.html#method-i-delete_if)
 
-###Examples of manipulation
+### Examples of manipulation
     #échantillon
     [2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2].sample
 
@@ -242,7 +242,7 @@ Any arguments passed to the matcher will be passed on to the predicate method.
 
     people_with_area_code_419 = people.select { |person| /\A1-419/.match person.phone }
 
-##Enumerables
+## Enumerables
 [Ruby doc](http://ruby-doc.org/core-2.1.5/Enumerable.html)
 
     all? [{ |obj| block } ] → true or false
@@ -260,8 +260,8 @@ Any arguments passed to the matcher will be passed on to the predicate method.
       (1..100).find_index { |i| i % 5 == 0 and i % 7 == 0 }  #=> 34
 
 
-#Arguments
-##Named arguments for methods
+# Arguments
+## Named arguments for methods
 One way to implement this design pattern is for our methods to expect a hash rather than individual arguments. The individual arguments become expected keys in the hash.
 
     album_details = {
@@ -278,7 +278,7 @@ Examples of use:
     color = options.fetch(:color) { raise "You must supply a :color option!" }
     color = options.fetch(:color){ "blue" }
 
-##Command line arguments
+## Command line arguments
 Accessible via the Array ARGV[]
 To test if any command line arguments were given, use ARGV.any?. Example:
 
@@ -288,15 +288,15 @@ To test if any command line arguments were given, use ARGV.any?. Example:
       option     = ARGV[2]
 
 
-#Others
-##Time
+# Others
+## Time
     require 'date'
     @created_at = DateTime.parse('2012-05-10T03:53:40-07:00')
 
 
-#Persistance
-##Databases
-###SQLite
+# Persistance
+## Databases
+### SQLite
 #### Create a database
 Open the SQLite shell, connecting to a database as we do so:
 ```bash
@@ -308,7 +308,7 @@ This will take us to a SQLite shell prompt where we can execute SQL statements:
 ```text
 SQLite version 3.8.10.2 2015-05-20 18:17:19
 Enter ".help" for usage hints.
-sqlite> 
+sqlite>
 ```
 
 #### Create a table
@@ -331,7 +331,7 @@ CREATE TABLE users (
 
 
 #### Check the Schema
-When we're in the SQLite shell, we can check on the current schema of our database by entering `.schema`.  
+When we're in the SQLite shell, we can check on the current schema of our database by entering `.schema`.
 
 #### Insert User Data
 
@@ -370,9 +370,9 @@ WHERE id=1;
 
 
 
-##CSV
+## CSV
 [Ruby docs - CSV library](http://ruby-doc.org/stdlib-2.1.0/libdoc/csv/rdoc/CSV.html)
-###Read
+### Read
     require 'csv'
     csv = CSV.read(@file, :headers => true, :header_converters => :symbol)
             {|row| row.to_hash}
@@ -385,7 +385,7 @@ OR
     end
     csv.close
 
-###Write
+### Write
     csv = CSV.open(@file, "w+") #or a+
     #csv writer needs an array of strings per row
     csv << ["first_name", "last_name", "email", "phone", "created_at"] #headers
@@ -402,7 +402,7 @@ OR
     end
 [Complete list of open modes](http://ruby-doc.org/core-2.0.0/IO.html#method-c-new-label-IO+Open+Mode)
 
-##TXT
+## TXT
 
 
 

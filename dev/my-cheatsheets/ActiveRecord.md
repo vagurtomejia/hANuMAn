@@ -1,5 +1,5 @@
 
-#Active Record
+# Active Record
 Active Record is an Object-Relational Mapping system, or ORM.
 
 ## Methods
@@ -19,7 +19,7 @@ tenley.destroy
 [Calculations](http://api.rubyonrails.org/classes/ActiveRecord/Calculations.html)
 
 ## Associations
-###Jockey-entry-race
+### Jockey-entry-race
 ![](https://github.com/chi-red-pandas-2016/active-record-associations-drill-at-the-races-challenge/blob/master/races_schema.png)
 ```ruby
 class Jockey < ActiveRecord::Base
@@ -45,7 +45,7 @@ class Race < ActiveRecord::Base
 end
 ```
 
-###Hotel-room-booking
+### Hotel-room-booking
 ![](https://github.com/chi-red-pandas-2016/active-record-associations-drill-hotels-challenge/blob/master/hotels_schema.png)
 ```ruby
 class Booking < ActiveRecord::Base
@@ -79,7 +79,7 @@ class User < ActiveRecord::Base
 end
 ```
 
-##Validations, errors and callbacks
+## Validations, errors and callbacks
 ### Validations
 [Validations and callbacks on Rails doc](http://guides.rubyonrails.org/v3.2.13/active_record_validations_callbacks.html)
 [Custom methods for validations](http://guides.rubyonrails.org/active_record_validations.html#custom-methods)
@@ -145,7 +145,7 @@ class User < ActiveRecord::Base
     @password = BCrypt::Password.create(new_password)
     self.encrypted_password = @password
   end
-  
+
   def authenticate(password)
     self.password == password
   end
@@ -189,7 +189,7 @@ get '/dogs' do
 end
 ```
 
-##helper viewer that can be useful for debugging/inspcting:
+## helper viewer that can be useful for debugging/inspcting:
 Session.inspect give us all the data/info in the session as a hash
 ```ruby
 get '/session-viewer' do
@@ -198,7 +198,7 @@ end
 ```
 Accessible by localhost:9393/session-viewer
 
-#Random
+# Random
 
 ## Useful links
 [Encrypt passwords with bcrypt](https://github.com/codahale/bcrypt-ruby)

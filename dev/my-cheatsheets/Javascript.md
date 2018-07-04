@@ -1,4 +1,4 @@
-#Javascript
+# Javascript
 
 ## Object Literals
 
@@ -21,8 +21,8 @@ mySpecialObject.someProperty
 mySpecialObject.someOtherProperty
 mySpecialObject.mySpecialFunction()
 ```
-or 
- 
+or
+
 ```js
 mySpecialObject[8]
 mySpecialObject["someProperty"]
@@ -38,17 +38,17 @@ mySpecialObject.someCrazyNewFunction = function () {
 }
 ```
 
-##OOJS
+## OOJS
 ### Constructor Functions
 
-If I want to be able to create different instances of an object, I can use a constructor function to accomplish this. 
-    
+If I want to be able to create different instances of an object, I can use a constructor function to accomplish this.
+
 ```js
 var Person = function(firstName, lastName, ssn) {
     //private vars & methods
     var ssn = ssn;
     var that = this;
-    
+
     function getLastFour() {
         // i can use 'that' here to refer to 'this' Person properly
         // this inside of a private method like this gets scoped globally
@@ -57,7 +57,7 @@ var Person = function(firstName, lastName, ssn) {
         return ssn.substring((ssn.length - 4), ssn.length);
 
     }
-    
+
     // public vars and functions use 'this'
     this.firstName = firstName;
     this.lastName = lastName;
@@ -70,7 +70,7 @@ var Person = function(firstName, lastName, ssn) {
 
 #### Accessing properties & functions of an object created with a constructor function
 
-```js 
+```js
 kevin = new Person("Kevin", "Solorio", "123456789");
 kevin.firstName
 kevin.lastName
@@ -117,7 +117,7 @@ Person.prototype.maskedSSN = function() {
 
 kevin.maskedSSN();
 ```
-    
+
 ### Object.create() - object creation alternative
 
 I can define a set of functions as a hash and pass it to the Object.create().  This will add all the functions to prototype.
@@ -126,7 +126,7 @@ I can define a set of functions as a hash and pass it to the Object.create().  T
 var behavior = {
     fullName: function() {
         return this.firstName + " " + this.lastName;
-    }, 
+    },
     initials: function() {
         return this.firstName[0] + this.lastName[0];
     }
@@ -138,12 +138,12 @@ person.lastName = "Smith";
 person.fullName();
 ```
 
-##Tests
-###Jasmine
+## Tests
+### Jasmine
 To run the tests, we open the `SpecRunner.html` file in the browser.
 [Jasmine doc](http://jasmine.github.io/2.4/introduction.html)
 
-##DBC Challenges
+## DBC Challenges
 - [Garden and Flowers](https://github.com/chi-red-pandas-2016/oojs-garden-challenge/tree/solo_vagurtomejia)
 ###Flower
 ```js
@@ -153,7 +153,7 @@ var Flower = function(name, color) {
 }
 ```
 
-###Garden
+### Garden
 ```js
 var garden = {
   name: "Kula Botanical Garden",
@@ -189,11 +189,11 @@ var garden = {
 }
 ```
 
-##Fixing issues
-###Var scope: local to functions
+## Fixing issues
+### Var scope: local to functions
 Variables are function scope if we use 'var':
 
-###Var scope: global
+### Var scope: global
 
 Variables are gobal scope if we do not use 'var'
 ```js
@@ -210,7 +210,7 @@ function b() {
 }
 ```
 
-##DBC challenges
+## DBC challenges
 - [Orange Tree](https://github.com/chi-red-pandas-2016/oojs-orange-tree-challenge/tree/solo_vagurtomejia)
 - [Station and bikes](https://github.com/chi-red-pandas-2016/oojs-bikes-and-stations-challenge/tree/pair-DanielJPark%2Ckellymp/src)
 ###OrangeTree
@@ -260,7 +260,7 @@ var OrangeTree = function() {
 };
 ```
 
-###Orange
+### Orange
 ```js
 var Orange = function() {
   this.diameter = this.calculateDiameter();
@@ -274,7 +274,7 @@ Orange.prototype.calculateDiameter = function() {
 }
 ```
 
-##Ressources
+## Ressources
 - [MDN documentation](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 - [MDN Javscript reference](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
 - [Arrays MDN doc](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array)

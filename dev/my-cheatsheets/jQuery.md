@@ -1,6 +1,6 @@
-#jQuery
+# jQuery
 
-##Include the jQuery library and the custom javascript code
+## Include the jQuery library and the custom javascript code
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -83,97 +83,97 @@ $( ".class" )
     </div>
 ```
 
-###descendant selectors
+### descendant selectors
 select all of the li elements within the #tours list using a descendant selector.
 ```js
 $("#tours  li")
 ```
 
-###direct descendant : child slector
+### direct descendant : child slector
 Let's use a direct child selector to only select the li items that are direct children of #tours.
 ```js
 $("#tours > li")
 ```
 
-###multiple different items
+### multiple different items
 select all tours that are from Asia and all tours that are On Sale. You'll need to use multiple selectors for this, with the classes for .asia and .sale.
 ```js
 $("#tours > .asia, #tours > .sale")
 ```
 
-###pseudo-selectors
-####:first
+### pseudo-selectors
+#### :first
 Use the :first pseudo selector to select the first tour in the list.
 ```js
 $("#tours li:first")
 ```
 
-####:even
+#### :even
 Find the direct children li elements, and then use the :even pseudo selector to select every other li element.
 ```js
 $("#tours > li:even")
 ```
 
-##Traversing
-###find()
+## Traversing
+### find()
 To select all vacations from America we can use $("#vacations .america"). This or traversal with the find method:
 ```js
 $("#vacations").find(".america")
 ```
 
-###first()
+### first()
 Using traversal or filtering, select the first vacation li element from the list.
 ```js
 $("#vacations").find("li").first()
 ```
 
-###last()
-Find the last li within #vacations using traversal 
+### last()
+Find the last li within #vacations using traversal
 ```js
 $("#vacations").find("li").last()
 ```
 
-###prev()
+### prev()
 Use traversal with the prev() method to select the vacation that is right before the last one.
 ```js
 $("#vacations li").last().prev()
 ```
 
-###parent()
+### parent()
 Using traversal, select all tours that have a .featured class on their title by getting the parent() of featured titles.
 ```js
 $(".featured").parent()
 ```
 
-###children()
+### children()
 Select all the tours: $("#tours > li"). You immediately realize it can be done better, refactor this to use traversal with children().
 ```js
 $("#tours").children()
 ```
 
-##Manipulating the DOM
+## Manipulating the DOM
 
-###Creating a DOM node
+### Creating a DOM node
 When the page loads, we'll show a message to the traveler letting them know how to book this trip. To start out, let's create a <span> node with our phone number, 1-555-jquery-air and set it to the message variable.
     var message = $('<span>Call 1-555-jquery-air to book this tour</span>');
 
-###Adding to the DOM
-####before()
+### Adding to the DOM
+#### before()
 Let's add the phone number immediately before() the "Book Now" button. You can check out the HTML of the rendered page by clicking on the HTML tab below.
 ```js
 var message = $('<span>Call 1-555-jquery-air to book this tour</span>');
 $(".book").before(message)
 ```
 
-####append()
+#### append()
 append() our <span> to the bottom of the .usa element. Let's change the code to add it there instead.
 ```js
 var message = $('<span>Call 1-555-jquery-air to book this tour</span>');
 $(".usa").append(message)
 ```
 
-###Removing from the DOM
-####remove()
+### Removing from the DOM
+#### remove()
 Remove that "Book Now" button until we can implement it.
 ```js
 var message = $('<span>Call 1-555-jquery-air to book this tour</span>');
@@ -181,8 +181,8 @@ $('.usa').append(message);
 $('.book').remove()
 ```
 
-##Useful JQuery methods
-###attr(), prop(), is() 
+## Useful JQuery methods
+### attr(), prop(), is()
 [attr documentation](http://api.jquery.com/attr/)
 [prop documentation](http://api.jquery.com/prop/)
 [is documentation](http://api.jquery.com/is/)
@@ -198,15 +198,15 @@ $( "input" )
   .change();
 ```
 
-###val() - returns string or number or array
+### val() - returns string or number or array
 [val documentation](http://api.jquery.com/val/)
 The .val() method is primarily used to get the values of form elements such as input, select and textarea.
 When called on an empty collection, it returns undefined.
 
 
-###css(propertyName) - returns string
+### css(propertyName) - returns string
 [css documentation](http://api.jquery.com/css/)
-####Get the value of a computed style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.
+#### Get the value of a computed style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.
 example of getting multiple property values:
 ```js
   var styleProps = $( this ).css([
@@ -214,15 +214,15 @@ example of getting multiple property values:
   ]);
 ```
 
-####To set a specified CSS property, use the following syntax:
+#### To set a specified CSS property, use the following syntax:
   css("propertyname","value");
 example of setting a value:
 ```js
   $(selector).css(property, value);
 ```
 
-###serialize() - returns string
-The .serialize() method creates a text string in standard URL-encoded notation. It can act on a jQuery object that has selected individual form controls, such as ```html <input>, <textarea>, and <select>```: 
+### serialize() - returns string
+The .serialize() method creates a text string in standard URL-encoded notation. It can act on a jQuery object that has selected individual form controls, such as ```html <input>, <textarea>, and <select>```:
 ```javascript
 $( "input, textarea, select" ).serialize();
 ```
@@ -247,8 +247,8 @@ ex:
 ```
 [serialize documentation](https://api.jquery.com/serialize/)
 
-##Acting on interaction (events handlers)
-###Events and events handlers
+## Acting on interaction (events handlers)
+### Events and events handlers
 * [Basics of jQuery Events][]
 * [Event Handling][]
 * [event.preventDefault() method][]
@@ -260,7 +260,7 @@ ex:
 If you bind to the `submit` event, you should consider using the
 [event.preventDefault() method][] provided by jQuery.
 
-###Click interaction
+### Click interaction
 Let's start by wrapping all of our previous code in a click handler for any `<button>` elements using the on() method.
 
 ```js
@@ -279,12 +279,12 @@ $('button').on('click', function() {
   });
 ```
 
-####Remove only the clicked button
+#### Remove only the clicked button
 ```js
 $(this).remove();
 ```
 
-####Relative Traversing
+#### Relative Traversing
 * Add the message after() the button we click on.
 ```js
     var message = $('<span>Call 1-555-jquery-air to book this tour</span>');
@@ -307,7 +307,7 @@ $(this).remove();
 $(this).closest('.tour').append(message);
 ```
 
-###All the code
+### All the code
 ```js
 $(document).ready(function() {
   $('button').on('click', function() {
@@ -318,7 +318,7 @@ $(document).ready(function() {
 });
 ```
 
-## Fetching Data From the DOM I 
+## Fetching Data From the DOM I
 Let's add a bit more incentive to get people to book these tours by offering a discount if they book today. Create a discount variable, and then assign the discount that is stored in the data() attribute on the .tour element.
 We want to show this discount to the user in the message we show after the "Book Now" button is clicked.
 
@@ -327,7 +327,7 @@ var discount = $(this).closest('.tour').data('discount');
 var message = $('<span>Call 1-555-jquery-air for a $'+discount+' discount.</span>');
 ```
 
-##Better handlers
+## Better handlers
 There is a small problem with the way our on() handler is being used. Currently, it is targeting all of the `<button>` elements on the screen. Refactor the on() handler to only target `<button>` elements within a .tour by using the selector argument of the on() method.
 ```js
     $(document).ready(function() {
@@ -335,7 +335,7 @@ There is a small problem with the way our on() handler is being used. Currently,
         ...
 ```
 
-##Filters
+## Filters
 Let's add some result filtering options to our page. We want to be able to click on a filter and highlight the corresponding tours with a .highlight class..(on-sale or .featured filters).
 
 ```js
@@ -352,12 +352,12 @@ $(document).ready(function() {
 });
 ```
 
-##DBC Challenges
+## DBC Challenges
 - (Style editor)[https://github.com/chi-red-pandas-2016/behavior-drill-style-editor-challenge/tree/solo_vagurtomejia]
 - (Tabbed interface)[https://github.com/chi-red-pandas-2016/behavior-drill-tabbed-interface-challenge/blob/solo_vagurtomejia/tabs.js]
 - (Comments form)(https://github.com/chi-red-pandas-2016/behavior-drill-add-comments-challenge/tree/solo_vagurtomejia)
 
-##Style editor
+## Style editor
 ```js
 $(function(){
   $('#style_editor').on('submit', function(event) {
@@ -372,7 +372,7 @@ $(function(){
   });
 });
 ```
-##Tabbed interface
+## Tabbed interface
 ```js
 $(document).ready(function () {
   //listen to the click on every li of a ul of class 'tabs'
@@ -399,7 +399,7 @@ $(document).ready(function () {
 });
 ```
 
-##Ressources
+## Ressources
 - [jQuery Cheat Sheet](https://oscarotero.com/jquery/)
 - [jQuery Event Basics][]
 - [Handling Events][] (e.g., a form `"submit"` event)

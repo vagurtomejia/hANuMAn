@@ -1,18 +1,18 @@
 
-#Setting libraries
-##Gemfile
+# Setting libraries
+## Gemfile
     gem 'faker'
     gem 'bcrypt'
-##Config/environment.rb
+## Config/environment.rb
     require 'faker'
     require 'bcrypt'
 
-#Setting migrations
-##Users
-###Generate migration
+# Setting migrations
+## Users
+### Generate migration
 $ be rake generate:migration NAME=create_users
 
-###Migration class (db/migrate/xxxx_create_users.rb)
+### Migration class (db/migrate/xxxx_create_users.rb)
 ```ruby
 class CreateUsers < ActiveRecord::Migration
   def change
@@ -29,13 +29,13 @@ class CreateUsers < ActiveRecord::Migration
 end
 ```
 
-###Run migration
+### Run migration
 $ be rake db:migrate
 
-##Other example
-###Generate migration
+## Other example
+### Generate migration
 $ be rake generate:migration NAME=create_entries
-###Migration class (db/migrate/xxx_create_entries.rb)
+### Migration class (db/migrate/xxx_create_entries.rb)
 ```ruby
     class CreateEntries < ActiveRecord::Migration
       def change
@@ -50,17 +50,17 @@ $ be rake generate:migration NAME=create_entries
       end
     end
 ```
-###Run migration
+### Run migration
 $ be rake db:migrate
 
-#Setting models
+# Setting models
 
-##Model User
+## Model User
 
-###Generate model
+### Generate model
 $ be rake generate:model NAME=user
 
-###User class (app/models/user.rb)
+### User class (app/models/user.rb)
 ```ruby
 class User < ActiveRecord::Base
 
@@ -90,9 +90,9 @@ end
 ```
 
 
-#Examples of tables and models
+# Examples of tables and models
 
-###Posts
+### Posts
 ```ruby
 class CreatePosts < ActiveRecord::Migration
   def change
@@ -119,7 +119,7 @@ class Post < ActiveRecord::Base
   end
 end
 ```
-###Votes
+### Votes
 
 ```ruby
 class CreateVotes < ActiveRecord::Migration
@@ -138,8 +138,8 @@ class Vote < ActiveRecord::Base
 end
 ```
 
-##Examples of seed files
-###For comments and votes
+## Examples of seed files
+### For comments and votes
 20.times do
   post = Post.create!( title: Faker::Company.catch_phrase,
                username: Faker::Internet.user_name,
@@ -152,12 +152,12 @@ end
   end
 end
 
-##Useful shotcuts
+## Useful shotcuts
 - command + d para seleccionar varias palabras
 - command + option + I para mostrar el inspector en el browser
 
-##Problem solving
-###Problems with the user cookies:
+## Problem solving
+### Problems with the user cookies:
 - open dev tools on the browser
 - go to Application tab
 - Storage

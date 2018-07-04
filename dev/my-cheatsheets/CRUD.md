@@ -1,4 +1,4 @@
-#CRUD
+# CRUD
 ## What is it?
 Behaviors for interacting with our data in our database
 Create, Read, Update, Delete data.
@@ -18,10 +18,10 @@ Given a route, it's the last line of the block that Sinatra tries to render to t
 
 * Sinatra's erb method returns a string, which means we can run it at the end of a route block and expect the method's output to render to the browser.
 
-##Priorities
+## Priorities
 The Sinatra objects (into app.rb) are prioritized top down!! Be careful with that!
 
-##Controller-Views scope
+## Controller-Views scope
 An instance variable set in a route's block will be available to the view that has been rendered by that block. That's a pretty complicated sentence
 
 ## URL Parameters
@@ -114,7 +114,7 @@ For now, we're just going to render the same view again, `greeting.erb`.
 
 ![snitch9](snitch1-9.png)
 
-##ERB template files
+## ERB template files
 layout.erb - What is not going to change between all the pages of the site is inside this file, it's the 'overall layout', IT IS ALWAYS THERE
 
 index.erb -_ it's the body that changes between all the pages, IT CHANGES
@@ -158,7 +158,7 @@ GET edit, then PUT
 ```html
 <a href="/dogs/<%= @dog.id %>/edit">Edit this dog</a>
 ```
-- Controler side: 
+- Controler side:
 get '/dogs/:id/edit' do
   @dog = Dog.find(params[:id])
   erb :edit
@@ -222,7 +222,7 @@ end
 [Partials Cheat-sheet](https://www.learnhowtoprogram.com/lessons/partials-in-sinatra#cheat-sheet)
 
 
-#REST
+# REST
 ## What is it?
 - stands for:
 REpresentational
@@ -243,7 +243,7 @@ Transfer
 ![Imgur](http://i.imgur.com/0Zu9rHR.png)
 
 
-#Interesting ressources
+# Interesting ressources
 [HTTP protocol](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
 
 

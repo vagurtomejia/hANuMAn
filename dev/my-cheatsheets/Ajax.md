@@ -1,9 +1,9 @@
-#AJAX
+# AJAX
 [Ajax documentation](http://api.jquery.com/jquery.ajax/)
-##Ajax method
+## Ajax method
      $.ajax({
        method: $form.attr('method'), // Good to do for GET and POST
-       url: $form.attr('action'),  
+       url: $form.attr('action'),
        data: postData
      })
      .done( function( responseHtml ) {
@@ -11,23 +11,23 @@
        $("#band-list").append( responseHtml );
      });
 
-##Using JSON
-###Controller side
-####Sending JSON
+## Using JSON
+### Controller side
+#### Sending JSON
 ```ruby
 content_type :json
     { new_points: post.points, title: 'my title' }.to_json
 ```
 
-###JS side
-####Recieving JSON
+### JS side
+#### Recieving JSON
 ```js
 .done(function(response) {
       var points = response.new_points;
     });
 ```
 
-####Sending JSON
+#### Sending JSON
 ```js
 var putData = {
      seen_show: true
@@ -35,12 +35,12 @@ var putData = {
 
    $.ajax({
      method: 'PUT',
-     url: $form.attr('action'),  
+     url: $form.attr('action'),
      data: putData
    })
 ```
 
-##Event delegation
+## Event delegation
 (JQuery doc)[https://learn.jquery.com/events/event-delegation/]
 
 Example of delegated event:
@@ -54,8 +54,8 @@ $( "#list" ).on( "click", "a", function( event ) {
 ```
 Notice how we have moved the a part from the selector to the second parameter position of the .on() method. This second, selector parameter tells the handler to listen for the specified event, and when it hears it, check to see if the triggering element for that event matches the second parameter. In this case, the triggering event is our anchor tag, which matches that parameter. Since it matches, our anonymous function will execute. We have now attached a single click event listener to our `<ul>` that will listen for clicks on its descendant anchors, instead of attaching an unknown number of directly bound events to the existing anchor tags only.
 
-##Errors management
-###server side
+## Errors management
+### server side
 ```ruby
   if new_post.save
     status 200 #succes
@@ -67,15 +67,15 @@ Notice how we have moved the a part from the selector to the second parameter po
   end
 ```
 
-##Using partials
+## Using partials
 ```ruby
-    erb :_band_li, 
-      :layout => false, 
+    erb :_band_li,
+      :layout => false,
       :locals => {band: new_band} #band is the variable used into the partial
                                   #new_band the variable used in the controller or viewer that calls the partial
-```  
+```
 
-##Managing errors for requests in Sinatra
+## Managing errors for requests in Sinatra
 ```ruby
   post '/posts' do
     #logic for attempting to save a post.
@@ -88,13 +88,13 @@ Notice how we have moved the a part from the selector to the second parameter po
   end
 ```
 
-##DBC Challenges
+## DBC Challenges
 - [Cheering mascot](https://github.com/chi-red-pandas-2016/cheering-mascot-sinatra-2-asynchronous-forms-challenge/tree/solo_vagurtomejia)
 - [Lucky Ajax](https://github.com/chi-red-pandas-2016/lucky-ajax-challenge/tree/solo_vagurtomejia)
 - [Hacker news](https://github.com/chi-red-pandas-2016/ajaxifying-hacker-news-challenge/tree/solo_vagurtomejia)
 - [Horses](https://github.com/chi-red-pandas-2016/ajax-checkpoint-challenge/tree/solo_vagurtomejia_final)
 
-###Cheering mascot
+### Cheering mascot
 ```js
 $(document).ready(function() {
 
@@ -133,7 +133,7 @@ post '/cheers' do
 end
 ```
 
-###Lucky Ajax
+### Lucky Ajax
 ```js
 $(document).ready(function () {
 
@@ -178,7 +178,7 @@ post '/rolls' do
 end
 ```
 
-###Hacker news
+### Hacker news
 javascript:
 
 ```js
@@ -312,7 +312,7 @@ post '/posts' do
 end
 ```
 
-###Horses
+### Horses
 javascript:
 
 ```js
@@ -404,6 +404,6 @@ $('#horses-list').on('click', 'a', function(event) {
 
 ```
 
-##Ajax livecode example
+## Ajax livecode example
 
 [Ellie breakout on Ajax](https://github.com/chi-red-pandas-2016/sinatra-skeleton-mvc-challenge/compare/example...chi-red-pandas-2016:ellie-ajax-jquery-livecode)

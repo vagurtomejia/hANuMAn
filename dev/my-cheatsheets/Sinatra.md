@@ -1,5 +1,5 @@
 
-#Sinatra
+# Sinatra
 
 [Sinatrarb (Sinatra intro)](http://www.sinatrarb.com/intro.html)
 ## Definition
@@ -14,9 +14,9 @@ If you haven't already, install the sinatra gem:
 $ gem install sinatra -v '~> 1.4.6'
 ```
 
-> :flashlight: *What's with that `~>` syntax? We're telling `gem` to install sinatra 
-> version greater than or equal to `1.4.6`, but limiting which versions it will 
-> install to patch releases greater than `1.4.6`. 
+> :flashlight: *What's with that `~>` syntax? We're telling `gem` to install sinatra
+> version greater than or equal to `1.4.6`, but limiting which versions it will
+> install to patch releases greater than `1.4.6`.
 
 Create a new ruby file (let's call it `sinatra.rb`, but it could really be
 called anything):
@@ -33,7 +33,7 @@ require 'sinatra'
 ```
 
 
-##Bundler
+## Bundler
 
 When bundler is installed, it provides a command-line utility. We can use this utility to install any necessary gems that are missing from our system (see Figure 3). Because the code base provides a Gemfile.lock file, Bundler will use this file to determine exactly which version of each gem to install. We'll begin most of our challenges going forward with this step of ensuring that all necessary gems are installed.
 ```
@@ -56,7 +56,7 @@ List all the possibilities into the Rakefile:
 ```
 $ bundle exec rake -T
 ```
-OR 
+OR
 rake -T
 *Figure 1*.  Listing available Rake tasks.
 
