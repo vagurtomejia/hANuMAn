@@ -1,3 +1,5 @@
+Building a complete Rails app tutorial
+======================================
 
 rails new maleta_de_cuentos
 cd maleta_de_cuentos
