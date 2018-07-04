@@ -74,6 +74,11 @@ Now open up app/views/layouts/application.html.erb and add code into the body ta
 
 
 
+
+
+
+
+
 ====================
 ====================
 
@@ -85,13 +90,36 @@ git add .
 git commit -m "Initial commit"
 bundle install
 
-rails g model Cuento titulo autor nacionalidad region tipo editorial isbn personaje:text tema:text version:text archivo
+## Modelos de Tipo y Subtipo
+
+rails g model Tipo nombre
+
+El modelo Subtipo es una combinación de primary key, nombre y foreign key (FK) que apunta hacia un Tipo
+
+rails g model Subtipo nombre tipo:references
+
+models/tipo.rb:
+```ruby
+class Tipo < ApplicationRecord
+  has_many :cuentos
+end
+
+models/subtipo.rb:
+```ruby
+class Subtipo < ApplicationRecord
+  belongs_to :tipo
+  has_many :cuentos
+end
+
+## Modelo de Cuento
+
+rails g model Cuento titulo autor nacionalidad region editorial isbn personaje:text tema:text version:text archivo tipo:references subtipo:references
 rake db:migrate
 ```
 
 Crear el controlador con las acciones básicas:
 ```shell
-rails g controller Cuentos index create new edit show update destroy
+rails g controller Cuentos index new create edit update show destroy
 ```
 
 config/routes.rb:
@@ -104,24 +132,24 @@ app/controllers/cuentos_controller.rb:
 ```ruby
 class CuentosController < ApplicationController
 
-before_action :set_cuento, only: [:show, :edit, :update]
+  before_action :set_cuento, only: [:show, :edit, :update]
 
   def index
     @cuentos = Cuento.order('titulo ASC')
   end
 
-  def show
-  end
-
   def new
     @cuento = Cuento.new
+    init_tipos_subtipos
   end
 
   def create
     @cuento = Cuento.new(cuento_params)
+
     if @cuento.save
       redirect_to cuentos_path
     else
+      init_tipos_subtipos
       render :new
     end
   end
@@ -129,7 +157,7 @@ before_action :set_cuento, only: [:show, :edit, :update]
   def edit
   end
 
-  def update
+ def update
     if @cuento.update_attributes(cuento_params)
       redirect_to cuento_path(@cuento)
     else
@@ -137,17 +165,30 @@ before_action :set_cuento, only: [:show, :edit, :update]
     end
   end
 
-  private
+  def show
+  end
+
+  def destroy
+  end
 
   def cuento_params
-    params.require(:cuento).permit(:titulo, :autor, :nacionalidad, :region, :tipo, :editorial, :isbn, :personaje, :tema, :version, :archivo)
+    params.require(:cuento).permit(:titulo, :autor, :nacionalidad, :region, :tipo_id, :subtipo_id, :editorial, :isbn, :personaje, :tema, :version, :archivo)
   end
 
   def set_cuento
     @cuento = Cuento.find(params[:id])
   end
 
+  def init_tipos_subtipos
+    tipos = Tipo.all
+    subtipos = Subtipo.where("tipo_id = ?", Tipo.first.id)
+    @tipos_options = tipos.collect { |tipo|[tipo.nombre, tipo.id] }
+    @subtipos_options = subtipos.collect { |subtipo|[subtipo.nombre, subtipo.id] }
+  end
+
 end
+
+
 ```
 
 
@@ -165,11 +206,12 @@ views/cuentos/_cuento.html.erb
 <h2><%= link_to cuento.titulo, cuento_path(cuento) %></h2>
 
 <p><%= cuento.autor %></p>
-<!-- <p><%= truncate(cuento.tema, length: 150) %></p> -->
 
-<p><%= link_to 'Edit', edit_cuento_path(cuento) %></p>
+<p><%= link_to 'Editar', edit_cuento_path(cuento) %></p>
 <hr>
 ```
+
+Fill the database by creating objects in db/seeds.rb and then rake db:seed
 
 
 ## Integrando Carrierwave
@@ -199,6 +241,15 @@ uploaders/archivo_uploader.rb
 storage :file
 ```
 
+y habilitación solo de pdf
+uploaders/archivo_uploader.rb
+```ruby
+ def extension_whitelist
+      #%w(jpg jpeg gif png)
+      %w(pdf)
+   end
+```
+
 Después, necesitamos incluir o montar este uploader al modelo:
 
 models/cuento.rb
@@ -214,7 +265,7 @@ Por defecto, los archivos serán colocados dentro del directorio public/uploads,
 
 ```ruby
 # Ignore the directory Carrierwave image uploads
-public/uploads
+/public/uploads
 ```
 Podrás también modificar el método store_dir dentro de tu uploader para elegir alguna otra ubicación.
 
@@ -231,56 +282,72 @@ views/cuentos/new.html.erb
 views/cuentos/_form.html.erb
 ```ruby
 
+
+<%= render 'shared/errors', object: cuento %>
+
 <%= form_for cuento do |f| %>
-  <div>
-    <%= f.label :título %>
-    <%= f.text_field :titulo %>
-  </div>
 
-  <div>
-    <%= f.label :autor %>
-    <%= f.text_field :autor %>
-  </div>
+  <fieldset>
+    <legend>Datos generales:</legend>
 
-  <div>
-    <%= f.label :nacionalidad %>
-    <%= f.text_field :nacionalidad %>
-  </div>
+      <div>
+        <%= f.label :título %>
+        <%= f.text_field :titulo, placeholder: "obligatorio" %>
+      </div>
 
-  <div>
-    <%= f.label :región %>
-    <%= f.text_field :region %>
-  </div>
+      <div>
+        <%= f.label :autor %>
+        <%= f.text_field :autor, placeholder: "obligatorio" %>
+      </div>
 
-  <div>
-    <%= f.label :tipo %>
-    <%= f.text_field :tipo %>
-  </div>
+      <div>
+        <%= f.label :nacionalidad %>
+        <%= f.text_field :nacionalidad, placeholder: "obligatorio" %>
+      </div>
 
-  <div>
-    <%= f.label :editorial %>
-    <%= f.text_field :editorial %>
-  </div>
+      <div>
+        <%= f.label :región %>
+        <%= f.text_field :region %>
+      </div>
 
-  <div>
-    <%= f.label :isbn %>
-    <%= f.text_field :isbn %>
-  </div>
+      <div>
+        <%= f.label :tipo %>
+        <%= f.select :tipo_id, options_for_select(@tipos_options), {:prompt => "--Selecciona tipo--"}, { id: 'tipos_select' } %>
+        <%= f.select :subtipo_id, options_for_select(@subtipos_options), {:prompt => "--Selecciona subtipo--"}, { id: 'subtipos_select' } %>
 
-  <div>
-    <%= f.label :personaje %>
-    <%= f.text_area :personaje %>
-  </div>
+      </div>
 
-  <div>
-    <%= f.label :tema %>
-    <%= f.text_area :tema %>
-  </div>
+      <div>
+        <%= f.label :editorial %>
+        <%= f.text_field :editorial %>
+      </div>
 
-  <div>
-    <%= f.label :version %>
-    <%= f.text_area :version %>
-  </div>
+      <div>
+        <%= f.label :isbn %>
+        <%= f.text_field :isbn %>
+      </div>
+
+      <div>
+        <%= f.label :versión %>
+        <%= f.text_area :version, rows: 5, cols: 50, placeholder: "¿De dónde sale este cuento (abuela, campamento, etc.)?" %>
+      </div>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Contenido:</legend>
+
+      <div>
+        <%= f.label :personajes %>
+        <%= f.text_area :personaje, rows: 5, cols: 50, placeholder: "Escribe los personajes principales del cuento separados por una coma." %>
+      </div>
+
+      <div>
+        <%= f.label :tema %>
+        <%= f.text_area :tema, rows: 5, cols: 50, placeholder: "¿Para qué usarías este cuento? Escribe el o los temas separados por una coma" %>
+      </div>
+
+   </fieldset>
 
   <div>
     <%= f.label :archivo %>
@@ -290,6 +357,9 @@ views/cuentos/_form.html.erb
 
   <%= f.submit %>
 <% end %>
+
+
+
 ```
 
 ¡Eso es todo! Debes iniciar el servidor e intentar crear una publicación con una imagen.
@@ -301,6 +371,7 @@ Así qué, la única vista que no hemos creado aún es show. Agrégala ahora:
 
 views/cuentos/show.html.erb
 ```ruby
+
 
 <%= link_to 'Todos los cuentos', cuentos_path %>
 <h1><%= @cuento.titulo %></h1>
@@ -322,7 +393,12 @@ views/cuentos/show.html.erb
 
 <p>
   <strong>Tipo:</strong>
-  <%= @cuento.region %>
+  <%= @cuento.tipo.nombre if !@cuento.tipo.nil?%>
+</p>
+
+<p>
+  <strong>Subtipo:</strong>
+  <%= @cuento.subtipo.nombre if !@cuento.subtipo.nil? %>
 </p>
 
 <p>
@@ -346,7 +422,7 @@ views/cuentos/show.html.erb
 </p>
 
 <p>
-  <strong>Version:</strong>
+  <strong>Versión:</strong>
   <%= @cuento.version %>
 </p>
 
@@ -356,16 +432,16 @@ views/cuentos/show.html.erb
 </object>
 
 
-<p><%= link_to 'Edit', edit_cuento_path(@cuento) %></p>
+<p><%= link_to 'Editar', edit_cuento_path(@cuento) %></p>
+
+
+
+
+
+
 ```
 
 ## Gestión de tipo de cuento
-
-rails g model Tipo nombre
-
-El modelo Subtipo es una combinación de primary key, nombre y foreign key (FK) que apunta hacia un Tipo
-
-rails g model Subtipo nombre tipo:references
 
 cuentos_controller.rb
 ```ruby
